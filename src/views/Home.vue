@@ -72,7 +72,7 @@
         <!--Feature Area End-->
 
         <!--Service Area Start-->
-        <div class="service-area">
+        <div class="service-area" :style="{backgroundImage: 'url('+serviceBG+')'}">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7">
@@ -386,7 +386,7 @@
         <!--Event Area End-->
 
         <!--Fun Factor Area Start-->
-        <div class="fun-factor-area fun-bg mt-100">
+        <div class="fun-factor-area fun-bg mt-100" :style="{backgroundImage: 'url('+funBG+')'}">
             <div class="container">
                 <div class="row justify-content-between content-between">
                     <div class="col">
@@ -644,14 +644,17 @@
 <script>
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
-import slider1 from "../assets/../assets/img/slider/slide2-home-1.jpg";
-
+import slider1 from "../assets/img/slider/slide2-home-1.jpg";
+import funBG from "../assets/img/bg/bg2.jpg";
+import serviceBG from "../assets/img/bg/bg1.jpg";
 
 export default {
     name: 'Home',
     data(){
         return {
-            slider1
+            slider1,
+            funBG,
+            serviceBG
         }
     },
     components: {

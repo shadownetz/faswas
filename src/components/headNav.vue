@@ -8,7 +8,9 @@
                     <!--Header Logo Start-->
                     <div class="col-lg-3 col-md-6">
                         <div class="header-logo">
-                            <a href="javascript:void(0)"><img src="../assets/img/logo/logo.png" alt=""></a>
+                            <a href="javascript:void(0)">
+                                <img src="../assets/img/logo/logo.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <!--Header Logo End-->
@@ -17,65 +19,52 @@
                         <div class="header-menu-area">
                             <nav>
                                 <ul class="main-menu">
-                                    <li class="active"><a href="javascript:void(0)">HOME</a>
-                                        <!--Dropdown Menu Start-->
-                                        <ul>
-                                            <li><a href="javascript:void(0)">Home Page 1</a></li>
-                                            <li><a href="javascript:void(0)">Home Page 2</a></li>
-                                        </ul>
-                                        <!--Dropdown Menu End-->
+                                    <li :class="[$route.name==='Home'?'active':'']">
+                                        <router-link :to="{name: 'Home'}">
+                                            Home
+                                        </router-link>
                                     </li>
-                                    <li><a href="javascript:void(0)">CAUSES</a>
-                                        <!--Dropdown Menu Start-->
-                                        <ul>
-                                            <li><a href="javascript:void(0)">Causes Details</a></li>
-                                        </ul>
-                                        <!--Dropdown Menu End-->
+                                    <li :class="[$route.name==='About'?'active':'']">
+                                        <router-link :to="{name: 'About'}">
+                                            About
+                                        </router-link>
                                     </li>
-                                    <li><a href="javascript:void(0)">EVENTS</a>
-                                        <!--Dropdown Menu Start-->
-                                        <ul>
-                                            <li><a href="javascript:void(0)">Event Three Column</a></li>
-                                            <li><a href="javascript:void(0)">Event Details</a></li>
-                                        </ul>
-                                        <!--Dropdown Menu End-->
+                                    <li :class="[$route.name==='Gallery'?'active':'']">
+                                        <router-link :to="{name: 'Gallery'}">
+                                            Gallery
+                                        </router-link>
                                     </li>
-                                    <li><a href="javascript:void(0)">BLOG</a>
-                                        <!--Dropdown Menu Start-->
-                                        <ul>
-                                            <li><a href="javascript:void(0)">Blog</a></li>
-                                            <li><a href="javascript:void(0)">Blog details</a></li>
-                                            <li><a href="javascript:void(0)">Blog Right Sidebar</a></li>
-                                            <li><a href="javascript:void(0)">Blog Left Sidebar</a></li>
-                                        </ul>
-                                        <!--Dropdown Menu End-->
+                                    <li :class="[$route.name==='Events'?'active':'']">
+                                        <router-link :to="{name: 'Events'}">
+                                            Events
+                                        </router-link>
                                     </li>
-                                    <li><a href="javascript:void(0)">SHOP</a>
-                                        <!--Dropdown Menu Start-->
-                                        <ul>
-                                            <li><a href="javascript:void(0)">Single Product</a></li>
-                                            <li><a href="javascript:void(0)">Shopping Cart</a></li>
-                                            <li><a href="javascript:void(0)">Wishlist</a></li>
-                                            <li><a href="javascript:void(0)">checkout</a></li>
-                                        </ul>
-                                        <!--Dropdown Menu End-->
-                                    </li>
-                                    <li><a href="javascript:void(0)">PAGES</a>
-                                        <!--Dropdown Menu Start-->
-                                        <ul>
-                                            <li><a href="javascript:void(0)">About</a></li>
-                                            <li><a href="javascript:void(0)">Volunteer</a></li>
-                                            <li><a href="javascript:void(0)">Volunteer Details</a></li>
-                                            <li><a href="javascript:void(0)">Become Volunteer</a></li>
-                                            <li><a href="javascript:void(0)">Gallery</a></li>
-                                            <li><a href="javascript:void(0)">Gallery Filtering</a></li>
-                                            <li><a href="javascript:void(0)">Gallery Full Width</a></li>
-                                            <li><a href="javascript:void(0)">Gallery Masonry</a></li>
-                                            <li><a href="javascript:void(0)">Donate</a></li>
-                                        </ul>
-                                        <!--Dropdown Menu End-->
-                                    </li>
-                                    <li><a href="javascript:void(0)">CONTACT</a></li>
+<!--                                    <li><a href="javascript:void(0)">BLOG</a>-->
+<!--                                        &lt;!&ndash;Dropdown Menu Start&ndash;&gt;-->
+<!--                                        <ul>-->
+<!--                                            <li><a href="javascript:void(0)">Blog</a></li>-->
+<!--                                            <li><a href="javascript:void(0)">Blog details</a></li>-->
+<!--                                            <li><a href="javascript:void(0)">Blog Right Sidebar</a></li>-->
+<!--                                            <li><a href="javascript:void(0)">Blog Left Sidebar</a></li>-->
+<!--                                        </ul>-->
+<!--                                        &lt;!&ndash;Dropdown Menu End&ndash;&gt;-->
+<!--                                    </li>-->
+<!--                                    <li><a href="javascript:void(0)">PAGES</a>-->
+<!--                                        &lt;!&ndash;Dropdown Menu Start&ndash;&gt;-->
+<!--                                        <ul>-->
+<!--                                            <li><a href="javascript:void(0)">About</a></li>-->
+<!--                                            <li><a href="javascript:void(0)">Volunteer</a></li>-->
+<!--                                            <li><a href="javascript:void(0)">Volunteer Details</a></li>-->
+<!--                                            <li><a href="javascript:void(0)">Become Volunteer</a></li>-->
+<!--                                            <li><a href="javascript:void(0)">Gallery</a></li>-->
+<!--                                            <li><a href="javascript:void(0)">Gallery Filtering</a></li>-->
+<!--                                            <li><a href="javascript:void(0)">Gallery Full Width</a></li>-->
+<!--                                            <li><a href="javascript:void(0)">Gallery Masonry</a></li>-->
+<!--                                            <li><a href="javascript:void(0)">Donate</a></li>-->
+<!--                                        </ul>-->
+<!--                                        &lt;!&ndash;Dropdown Menu End&ndash;&gt;-->
+<!--                                    </li>-->
+<!--                                    <li><a href="javascript:void(0)">CONTACT</a></li>-->
                                 </ul>
                             </nav>
                         </div>
@@ -84,7 +73,9 @@
                     <!--Book Now Area Start-->
                     <div class="col-lg-2 col-md-6">
                         <div class="book-now-btn text-right">
-                            <a href="javascript:void(0)">DONATE</a>
+                            <router-link :to="{name:'Contact'}">
+                                Contact
+                            </router-link>
                         </div>
                     </div>
                     <!--Book Now Area Start-->
