@@ -1,0 +1,14 @@
+{
+    "name": "FASWAS",
+    "short_name": "FASWAS",
+    "icons": [
+        {
+            "src": "/android-chrome-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#e4b30a",
+    "background_color": "#e4b30a",
+    "display": "standalone"
+}
