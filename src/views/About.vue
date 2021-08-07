@@ -39,9 +39,13 @@
                         <div class="about-content">
                             <h2>FASWAS</h2>
                             <h3>Feed a Soul Win a Soul.</h3>
-                            <h4>Happy World, Happy People</h4>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eligendi expedita, provident cupiditate in excepturi.</p>
+                            <h4>Love is Our Religion</h4>
+                            <p>
+                                "Feed a Soul Win a Soul" is global music conference founded by the Elldanin Humanitarian Foundation International (EHFI),
+                                with the aim of <strong>sensitization</strong> and <strong>empowerment</strong> of 20,000+
+                                children, women, youths, the elderly and persons with disability across different
+                                African countries
+                            </p>
                             <a class="default-btn" href="javascript:void(0)">Contact</a>
                         </div>
                         <!--About Content Area End-->
@@ -58,9 +62,21 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="service-section-title mb-40">
-                                    <h2>What we do</h2>
-                                    <h3>Always try to do better for humanity</h3>
-                                    <p>Pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally </p>
+                                    <h2>Elldanin Humanitarian Foundation International</h2>
+                                    <h3 class="text-muted">Founder of Feed a Soul Win a Soul</h3>
+                                    <p>
+                                        The <a href="javascript:void(0)">Elldanin Humanitarian Foundation International</a> (E.H.F.I) is a <br>non-governmental organization founded by popular Nigerian music Artist, Humanitarian, Public Speaker, Entrepreneur and Author at
+                                        <a href="javascript:void(0)">Ellbanks Universal Music</a>, ELLIOT ADANIN OKPATAKU aka Akumonibanks.
+                                    </p>
+                                    <p>
+                                        The Foundation was established July, 2021 with a clear vision and mission of establishing a grass root outreach program that seeks to enhance the life of all displaced and under-privileged women, girls, children, youths, the elderly and persons with disability in Nigeria and the rest of Africa irrespective of their Religious and Cultural divergence.
+                                    </p>
+                                    <p>
+                                        The foundation is aimed at organizing regular outreach/sensitization programs, seminars and music conferences that will create impact through knowledge, wealth and skills creation to foster sanity and civility to the entire human race across the African continent. This will be achieved through Books, Music, Movies and Motivational Speaking by taking on societal issues affecting the girl child, children and women. These societal issues vary from inadequate education for the girl child, lack of food and poor security for less privilege children and persons with disability, gender inequality, rape, youth unemployment, lack of proper care for the elderly, human rights violation, climate change etc.
+                                    </p>
+                                    <p>
+                                        Having identified this societal menace affecting children and women across the African continent, it is difficult to turn a blind eye especially as an African and a celebrity with a voice and an ever growing platform for creating constant impact in the society. We have therefore decided to contribute to the overall growth and development of the African continent through our foundation by setting up certain strategies and series of events to address the challenges as previously highlighted.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -68,48 +84,68 @@
                             <div class="col-md-6">
                                 <!--Single Service Start-->
                                 <div class="single-service mb-30">
-                                    <h2 class="service-title">Make Donation</h2>
-                                    <p>Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
+                                    <h2 class="service-title">Our Vision</h2>
+                                    <p>
+                                        To create a world of equal opportunity where being a Child, a Woman, Persons with Disability or a Youth with no clear path in the society doesn't mean survival but Protection, Education and Inclusiveness leaving no one behind.
+                                    </p>
                                 </div>
                                 <!--Single Service End-->
                             </div>
                             <div class="col-md-6">
                                 <!--Single Service Start-->
                                 <div class="single-service mb-30">
-                                    <h2 class="service-title">Give Scholarship</h2>
-                                    <p>Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
+                                    <h2 class="service-title">Our Mission</h2>
+                                    <p>
+                                        To help children, women, youths, the elderly and persons with disability to attain equal opportunity within the society by providing adequate protection, education and system inclusiveness.
+                                    </p>
                                 </div>
                                 <!--Single Service End-->
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <!--Single Service Start-->
                                 <div class="single-service mb-30">
-                                    <h2 class="service-title">Become a Volunteer</h2>
-                                    <p>Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
+                                    <h2 class="service-title">Core Values </h2>
+                                    <p style="max-width: 480px">
+                                        Love, Equality, Advocacy and Transparency.
+                                    </p>
                                 </div>
                                 <!--Single Service End-->
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <!--Single Service Start-->
                                 <div class="single-service mb-30">
-                                    <h2 class="service-title">Organize Entertainment</h2>
-                                    <p>Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
+                                    <h2 class="service-title">Aims And Objectives</h2>
+                                    <p style="max-width: 480px">
+                                        In view of the United Nations 17 points Sustainable Development Goals for 2030 Agenda, adopted by the General Assembly in 2015.
+                                        Our aim is to establish a grass root reachout program that seeks to enhance the life of all displaced and under-privileged children, girls, women, youths, the elderly and persons with disability in Nigeria and the rest of Africa irrespective of their Religious and Cultural divergence.
+                                    </p>
                                 </div>
                                 <!--Single Service End-->
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <!--Single Service Start-->
                                 <div class="single-service mb-30">
-                                    <h2 class="service-title">Food & Water Supply</h2>
-                                    <p>Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
-                                </div>
-                                <!--Single Service End-->
-                            </div>
-                            <div class="col-md-6">
-                                <!--Single Service Start-->
-                                <div class="single-service mb-30">
-                                    <h2 class="service-title">Protect Environment</h2>
-                                    <p>Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
+                                    <h2 class="service-title">Our Objectives</h2>
+                                    <ul class="obj-list" style="max-width: 480px">
+                                        <li>
+                                            To provide food, clothes and financial assistance as well as other resources to 1,000 orphanages across Africa.
+                                        </li>
+                                        <li>
+                                            To reach out to 100 Prisons across Africa to positively impact the lives of 5,000 inmates by spreading Happiness, Love and Hope as well as motivation while providing skill acquisition platforms and training for inmates reintegration to the society.
+                                        </li>
+                                        <li>
+                                            To lend our voice and support as a strong advocate to legislative policies and laws fighting against Rape, Gender-based/Domestic Violence, Gender Inequality, Discrimination against Persons with Disability, Child Abuse/Molestation, Children Trafficking, Education for the Girl Child, etc.
+                                        </li>
+                                        <li>
+                                            Sensitization and empowerment of 20,000+ children, women, youths, the elderly and persons with disability across different African countries through the launch of a Global Music Conference tagged "Feed-A-Soul Win-A-Soul".
+                                        </li>
+                                        <li>
+                                            To reach out to victims of communal conflict and displaced communities across Africa for the purpose of rehabilitation and integration into the society through motivations, skill acquisition/training and provision of medical and financial assistance.
+                                        </li>
+                                        <li>
+                                            To educate 10,000+ girls, children, and youths across different African countries by sending them back to school while providing relevant educational resources as well as financial aid.
+                                        </li>
+                                    </ul>
                                 </div>
                                 <!--Single Service End-->
                             </div>
@@ -170,12 +206,14 @@
                         <!--Single Testimonial Start-->
                         <div class="single-testimonial">
                             <div class="testimonial-content">
-                                <p>Pursue pleasure rationally encounter equences that treme painful. Nor again is there anyone  obtain pain of itself, because it is pain</p>
+                                <p>
+                                    A man there was, and they called him mad; the more he gave, the more he had.
+                                </p>
                             </div>
                             <div class="testimonial-author-info">
                                 <div class="team-author-deg">
-                                    <h3>Stephen Smith</h3>
-                                    <p>Donetor, CEO of Axion</p>
+                                    <h3>Elliot Adanin</h3>
+                                    <p>Founder, CEO</p>
                                 </div>
                                 <div class="author-img">
                                     <img src="../assets/img/testimonial/testi1-home-1.jpg" alt="">
@@ -188,12 +226,54 @@
                         <!--Single Testimonial Start-->
                         <div class="single-testimonial">
                             <div class="testimonial-content">
-                                <p>Pursue pleasure rationally encounter equences that treme painful. Nor again is there anyone  obtain pain of itself, because it is pain</p>
+                                <p>
+                                    When we give cheerfully and accept gratefully, everyone is blessed
+                                </p>
                             </div>
                             <div class="testimonial-author-info">
                                 <div class="team-author-deg">
-                                    <h3>Jeniger Hearly</h3>
-                                    <p>Donetor, CEO of Axion</p>
+                                    <h3>Elliot Adanin</h3>
+                                    <p>Founder, CEO</p>
+                                </div>
+                                <div class="author-img">
+                                    <img src="../assets/img/testimonial/testi2-home-1.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!--Single Testimonial End-->
+                    </div>
+                    <div class="col-6">
+                        <!--Single Testimonial Start-->
+                        <div class="single-testimonial">
+                            <div class="testimonial-content">
+                                <p>
+                                    A man there was, and they called him mad; the more he gave, the more he had.
+                                </p>
+                            </div>
+                            <div class="testimonial-author-info">
+                                <div class="team-author-deg">
+                                    <h3>Elliot Adanin</h3>
+                                    <p>Founder, CEO</p>
+                                </div>
+                                <div class="author-img">
+                                    <img src="../assets/img/testimonial/testi1-home-1.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!--Single Testimonial End-->
+                    </div>
+                    <div class="col-6">
+                        <!--Single Testimonial Start-->
+                        <div class="single-testimonial">
+                            <div class="testimonial-content">
+                                <p>
+                                    When we give cheerfully and accept gratefully, everyone is blessed
+                                </p>
+                            </div>
+                            <div class="testimonial-author-info">
+                                <div class="team-author-deg">
+                                    <h3>Elliot Adanin</h3>
+                                    <p>Founder, CEO</p>
                                 </div>
                                 <div class="author-img">
                                     <img src="../assets/img/testimonial/testi2-home-1.jpg" alt="">
@@ -227,6 +307,45 @@ export default {
             delay: 70,
             time: 5000
         });
+        $('.testimonial-active').slick({
+            arrows: false,
+            dots: false,
+            pauseOnFocus: true,
+            pauseOnHover: true,
+            infinite: true,
+            slidesToShow: 2,
+            slidesToScoll: 2,
+            zIndex:1,
+            prevArrow: '<button type="button" class="slick-prev"> <i class="fa fa-angle-left"></i> </button>',
+            nextArrow: '<button type="button" class="slick-next"><i class="fa fa-angle-right"></i></button>',
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                }
+            ]
+        });
+
     }
 }
 </script>
+
+<style scoped>
+    .obj-list li{
+        margin-bottom: 20px;
+    }
+</style>

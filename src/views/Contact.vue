@@ -31,7 +31,10 @@
                             </div>
                             <div class="contact-info">
                                 <h2>You Can <br> Contact With Us</h2>
-                                <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram anteposuerit litterarum formas human.</p>
+                                <p>
+                                    For enquiries and donations, feel free to fill the form below and
+                                    we will get in touch as soon as we can.
+                                </p>
                             </div>
                         </div>
                     </div>

@@ -7,4 +7,9 @@
 </template>
 
 <style>
+    .header-logo img,
+    .footer-logo img{
+        width: 200px;
+        height: 50px
+    }
 </style>

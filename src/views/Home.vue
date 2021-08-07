@@ -12,7 +12,9 @@
                                 <div class="hero-slider-content">
                                     <h1>Small help together makes better life</h1>
                                     <div class="slider-btn">
-                                        <a class="default-btn" href="javascript:void(0)">READ MORE</a>
+                                        <router-link :to="{name: 'Contact'}" class="default-btn">
+                                            KNOW MORE
+                                        </router-link>
                                     </div>
                                 </div>
                             </div>
@@ -29,7 +31,9 @@
                                 <div class="hero-slider-content">
                                     <h1>Let's teach them letter, the world will be better</h1>
                                     <div class="slider-btn">
-                                        <a class="default-btn" href="javascript:void(0)">READ MORE</a>
+                                        <router-link :to="{name: 'Contact'}" class="default-btn">
+                                            KNOW MORE
+                                        </router-link>
                                     </div>
                                 </div>
                             </div>
@@ -48,21 +52,22 @@
                     <div class="single-feature col-md-4">
                         <!--Single Feature Area Start-->
                         <div class="single-feature-inner">
-                            <h2>Get our Promortional <span class="text-underline">Products</span> and help the humaity</h2>
+                            <h2>Get our Promotional <span class="text-underline">Products</span> and help the humanity</h2>
                         </div>
                         <!--Single Feature Area End-->
                     </div>
                     <div class="single-feature col-md-4">
                         <!--Single Feature Area Start-->
                         <div class="single-feature-inner">
-                            <h2>Our Upcomming <span class="text-underline">Events Date</span>: 3rd October, 2018 <span class="text-underline">Venu</span>: Romance Hall</h2>
+                            <h2>Our Upcoming <span class="text-underline">Event Date</span>: <br> 3rd October, 2021
+                                <br><span class="text-underline">Venue</span>: EKO Hotels and Suites</h2>
                         </div>
                         <!--Single Feature Area End-->
                     </div>
                     <div class="single-feature col-md-4">
                         <!--Single Feature Area Start-->
                         <div class="single-feature-inner">
-                            <h2>Our Latest <span class="text-underline">Achivement Fund’s</span> $3,85,65,250 <span class="text-underline">Member’s</span> 50,000</h2>
+                            <h2>Our Latest <span class="text-underline">Achievement Fund’s</span> $3,85,65,250 <span class="text-underline">Member’s</span> 50,000</h2>
                         </div>
                         <!--Single Feature Area End-->
                     </div>
@@ -79,60 +84,22 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="service-section-title mb-40">
-                                    <h2>What we do</h2>
-                                    <h3>Always try to do better for humanity</h3>
-                                    <p>Pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally </p>
+                                    <h2>FASWAS</h2>
+                                    <h3>Feed a Soul Win a Soul</h3>
+                                    <p>
+                                        "Feed a Soul Win a Soul" is global music conference founded by the Elldanin Humanitarian Foundation International (EHFI),
+                                        with the aim of <strong>sensitization</strong> and <strong>empowerment</strong> of 20,000+
+                                        children, women, youths, the elderly and persons with disability across different
+                                        African countries
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-6">
-                                <!--Single Service Start-->
-                                <div class="single-service mb-30">
-                                    <h2 class="service-title">Make Donation</h2>
-                                    <p>Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
-                                </div>
-                                <!--Single Service End-->
-                            </div>
-                            <div class="col-md-6">
-                                <!--Single Service Start-->
-                                <div class="single-service mb-30">
-                                    <h2 class="service-title">Give Scholarship</h2>
-                                    <p>Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
-                                </div>
-                                <!--Single Service End-->
-                            </div>
-                            <div class="col-md-6">
-                                <!--Single Service Start-->
-                                <div class="single-service mb-30">
-                                    <h2 class="service-title">Become a Volunteer</h2>
-                                    <p>Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
-                                </div>
-                                <!--Single Service End-->
-                            </div>
-                            <div class="col-md-6">
-                                <!--Single Service Start-->
-                                <div class="single-service mb-30">
-                                    <h2 class="service-title">Organize Entertainment</h2>
-                                    <p>Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
-                                </div>
-                                <!--Single Service End-->
-                            </div>
-                            <div class="col-md-6">
-                                <!--Single Service Start-->
-                                <div class="single-service mb-30">
-                                    <h2 class="service-title">Food & Water Supply</h2>
-                                    <p>Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
-                                </div>
-                                <!--Single Service End-->
-                            </div>
-                            <div class="col-md-6">
-                                <!--Single Service Start-->
-                                <div class="single-service mb-30">
-                                    <h2 class="service-title">Protect Environment</h2>
-                                    <p>Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
-                                </div>
-                                <!--Single Service End-->
+                            <div class="col-12 text-center">
+                                <router-link :to="{name: 'About'}" class="default-btn">
+                                    Learn More
+                                </router-link>
                             </div>
                         </div>
                     </div>
@@ -145,102 +112,102 @@
         <!--Service Area End-->
 
         <!--Our Causes Area Start-->
-        <div class="our-causes-area pt-115">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <!--Section Title Start-->
-                        <div class="section-title mb-60">
-                            <h2>Our Causes</h2>
-                            <p>Pursue pleasure rationally encounter consequences that extremely painful. Nor again is there anyone who loves or pursues </p>
-                        </div>
-                        <!--Section Title End-->
-                    </div>
-                </div>
-                <div class="row">
-                    <!--Single Causes Area Start-->
-                    <div class="col-lg-6 col-xl-3 col-md-6">
-                        <div class="single-causes-area mb-30">
-                            <div class="causes-feature">
-                                <ul>
-                                    <li><span class="content">Raised</span> <span class="per-count">$10,000</span></li>
-                                    <li><span class="content">Achive</span> <span class="per-count">50.5%</span></li>
-                                    <li><span class="content">Goal</span> <span class="per-count">$18,000</span></li>
-                                </ul>
-                            </div>
-                            <div class="causes-img img-full">
-                                <a href="javascript:void(0)"><img src="../assets/img/causes/causes1.jpg" alt=""></a>
-                            </div>
-                            <div class="casues-content">
-                                <h3><a href="javascript:void(0)">Education.</a></h3>
-                                <p>Pursue pleasure rationally unter consequences that are tremely painful. Nor again is here</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Single Causes Area End-->
-                    <!--Single Causes Area Start-->
-                    <div class="col-lg-6 col-xl-3 col-md-6">
-                        <div class="single-causes-area mb-30">
-                            <div class="causes-feature">
-                                <ul>
-                                    <li><span class="content">Raised</span> <span class="per-count">$8,500</span></li>
-                                    <li><span class="content">Achive</span> <span class="per-count">141.23%</span></li>
-                                    <li><span class="content">Goal</span> <span class="per-count">$12,000</span></li>
-                                </ul>
-                            </div>
-                            <div class="causes-img img-full">
-                                <a href="javascript:void(0)"><img src="../assets/img/causes/causes2.jpg" alt=""></a>
-                            </div>
-                            <div class="casues-content">
-                                <h3><a href="javascript:void(0)">Green World.</a></h3>
-                                <p>Pursue pleasure rationally unter consequences that are tremely painful. Nor again is here</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Single Causes Area End-->
-                    <!--Single Causes Area Start-->
-                    <div class="col-lg-6 col-xl-3 col-md-6">
-                        <div class="single-causes-area mb-30">
-                            <div class="causes-feature">
-                                <ul>
-                                    <li><span class="content">Raised</span> <span class="per-count">$15,000</span></li>
-                                    <li><span class="content">Achive</span> <span class="per-count">83.33%</span></li>
-                                    <li><span class="content">Goal</span> <span class="per-count">$18,000</span></li>
-                                </ul>
-                            </div>
-                            <div class="causes-img img-full">
-                                <a href="javascript:void(0)"><img src="../assets/img/causes/causes3.jpg" alt=""></a>
-                            </div>
-                            <div class="casues-content">
-                                <h3><a href="javascript:void(0)">Accomodation.</a></h3>
-                                <p>Pursue pleasure rationally unter consequences that are tremely painful. Nor again is here</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Single Causes Area End-->
-                    <!--Single Causes Area Start-->
-                    <div class="col-lg-6 col-xl-3 col-md-6">
-                        <div class="single-causes-area mb-30">
-                            <div class="causes-feature">
-                                <ul>
-                                    <li><span class="content">Raised</span> <span class="per-count">$10,000</span></li>
-                                    <li><span class="content">Achive</span> <span class="per-count">100%</span></li>
-                                    <li><span class="content">Goal</span> <span class="per-count">$10,000</span></li>
-                                </ul>
-                            </div>
-                            <div class="causes-img img-full">
-                                <a href="javascript:void(0)"><img src="../assets/img/causes/causes4.jpg" alt=""></a>
-                            </div>
-                            <div class="casues-content">
-                                <h3><a href="javascript:void(0)">Food.</a></h3>
-                                <p>Pursue pleasure rationally unter consequences that are tremely painful. Nor again is here</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Single Causes Area End-->
-                </div>
-            </div>
-        </div>
+<!--        <div class="our-causes-area pt-115">-->
+<!--            <div class="container">-->
+<!--                <div class="row">-->
+<!--                    <div class="col-12">-->
+<!--                        &lt;!&ndash;Section Title Start&ndash;&gt;-->
+<!--                        <div class="section-title mb-60">-->
+<!--                            <h2>Our Causes</h2>-->
+<!--                            <p>Pursue pleasure rationally encounter consequences that extremely painful. Nor again is there anyone who loves or pursues </p>-->
+<!--                        </div>-->
+<!--                        &lt;!&ndash;Section Title End&ndash;&gt;-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="row">-->
+<!--                    &lt;!&ndash;Single Causes Area Start&ndash;&gt;-->
+<!--                    <div class="col-lg-6 col-xl-3 col-md-6">-->
+<!--                        <div class="single-causes-area mb-30">-->
+<!--                            <div class="causes-feature">-->
+<!--                                <ul>-->
+<!--                                    <li><span class="content">Raised</span> <span class="per-count">$10,000</span></li>-->
+<!--                                    <li><span class="content">Achive</span> <span class="per-count">50.5%</span></li>-->
+<!--                                    <li><span class="content">Goal</span> <span class="per-count">$18,000</span></li>-->
+<!--                                </ul>-->
+<!--                            </div>-->
+<!--                            <div class="causes-img img-full">-->
+<!--                                <a href="javascript:void(0)"><img src="../assets/img/causes/causes1.jpg" alt=""></a>-->
+<!--                            </div>-->
+<!--                            <div class="casues-content">-->
+<!--                                <h3><a href="javascript:void(0)">Education.</a></h3>-->
+<!--                                <p>Pursue pleasure rationally unter consequences that are tremely painful. Nor again is here</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    &lt;!&ndash;Single Causes Area End&ndash;&gt;-->
+<!--                    &lt;!&ndash;Single Causes Area Start&ndash;&gt;-->
+<!--                    <div class="col-lg-6 col-xl-3 col-md-6">-->
+<!--                        <div class="single-causes-area mb-30">-->
+<!--                            <div class="causes-feature">-->
+<!--                                <ul>-->
+<!--                                    <li><span class="content">Raised</span> <span class="per-count">$8,500</span></li>-->
+<!--                                    <li><span class="content">Achive</span> <span class="per-count">141.23%</span></li>-->
+<!--                                    <li><span class="content">Goal</span> <span class="per-count">$12,000</span></li>-->
+<!--                                </ul>-->
+<!--                            </div>-->
+<!--                            <div class="causes-img img-full">-->
+<!--                                <a href="javascript:void(0)"><img src="../assets/img/causes/causes2.jpg" alt=""></a>-->
+<!--                            </div>-->
+<!--                            <div class="casues-content">-->
+<!--                                <h3><a href="javascript:void(0)">Green World.</a></h3>-->
+<!--                                <p>Pursue pleasure rationally unter consequences that are tremely painful. Nor again is here</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    &lt;!&ndash;Single Causes Area End&ndash;&gt;-->
+<!--                    &lt;!&ndash;Single Causes Area Start&ndash;&gt;-->
+<!--                    <div class="col-lg-6 col-xl-3 col-md-6">-->
+<!--                        <div class="single-causes-area mb-30">-->
+<!--                            <div class="causes-feature">-->
+<!--                                <ul>-->
+<!--                                    <li><span class="content">Raised</span> <span class="per-count">$15,000</span></li>-->
+<!--                                    <li><span class="content">Achive</span> <span class="per-count">83.33%</span></li>-->
+<!--                                    <li><span class="content">Goal</span> <span class="per-count">$18,000</span></li>-->
+<!--                                </ul>-->
+<!--                            </div>-->
+<!--                            <div class="causes-img img-full">-->
+<!--                                <a href="javascript:void(0)"><img src="../assets/img/causes/causes3.jpg" alt=""></a>-->
+<!--                            </div>-->
+<!--                            <div class="casues-content">-->
+<!--                                <h3><a href="javascript:void(0)">Accomodation.</a></h3>-->
+<!--                                <p>Pursue pleasure rationally unter consequences that are tremely painful. Nor again is here</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    &lt;!&ndash;Single Causes Area End&ndash;&gt;-->
+<!--                    &lt;!&ndash;Single Causes Area Start&ndash;&gt;-->
+<!--                    <div class="col-lg-6 col-xl-3 col-md-6">-->
+<!--                        <div class="single-causes-area mb-30">-->
+<!--                            <div class="causes-feature">-->
+<!--                                <ul>-->
+<!--                                    <li><span class="content">Raised</span> <span class="per-count">$10,000</span></li>-->
+<!--                                    <li><span class="content">Achive</span> <span class="per-count">100%</span></li>-->
+<!--                                    <li><span class="content">Goal</span> <span class="per-count">$10,000</span></li>-->
+<!--                                </ul>-->
+<!--                            </div>-->
+<!--                            <div class="causes-img img-full">-->
+<!--                                <a href="javascript:void(0)"><img src="../assets/img/causes/causes4.jpg" alt=""></a>-->
+<!--                            </div>-->
+<!--                            <div class="casues-content">-->
+<!--                                <h3><a href="javascript:void(0)">Food.</a></h3>-->
+<!--                                <p>Pursue pleasure rationally unter consequences that are tremely painful. Nor again is here</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    &lt;!&ndash;Single Causes Area End&ndash;&gt;-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
         <!--Our Causes Area End-->
 
         <!--Donate Product Area Start-->
@@ -258,8 +225,11 @@
                                 <div class="col-md-4">
                                     <div class="donet-shop">
                                         <h2>Product for <br> Humanity</h2>
-                                        <p>Pursue pleasure rationally encounter consequences that extremely pain again</p>
-                                        <a href="javascript:void(0)">SHOP NOW</a>
+                                        <p>
+                                            Donate by getting our shirts and caps for
+                                            our global outreach
+                                        </p>
+<!--                                        <a href="javascript:void(0)">SHOP NOW</a>-->
                                     </div>
                                 </div>
                                 <div class="col-md-4">
@@ -369,7 +339,7 @@
                     <div class="col-lg-6 col-12 pl-60">
                         <!--Section Title Start-->
                         <div class="section-title text-left">
-                            <h2>Our Causes</h2>
+                            <h2>Events</h2>
                         </div>
                         <!--Section Title End-->
                         <div class="event-description">
@@ -434,12 +404,14 @@
                         <!--Single Testimonial Start-->
                         <div class="single-testimonial">
                             <div class="testimonial-content">
-                                <p>Pursue pleasure rationally encounter equences that treme painful. Nor again is there anyone  obtain pain of itself, because it is pain</p>
+                                <p>
+                                    A man there was, and they called him mad; the more he gave, the more he had.
+                                </p>
                             </div>
                             <div class="testimonial-author-info">
                                 <div class="team-author-deg">
-                                    <h3>Stephen Smith</h3>
-                                    <p>Donetor, CEO of Axion</p>
+                                    <h3>Elliot Adanin</h3>
+                                    <p>Founder, CEO</p>
                                 </div>
                                 <div class="author-img">
                                     <img src="../assets/img/testimonial/testi1-home-1.jpg" alt="">
@@ -452,12 +424,14 @@
                         <!--Single Testimonial Start-->
                         <div class="single-testimonial">
                             <div class="testimonial-content">
-                                <p>Pursue pleasure rationally encounter equences that treme painful. Nor again is there anyone  obtain pain of itself, because it is pain</p>
+                                <p>
+                                    When we give cheerfully and accept gratefully, everyone is blessed
+                                </p>
                             </div>
                             <div class="testimonial-author-info">
                                 <div class="team-author-deg">
-                                    <h3>Jeniger Hearly</h3>
-                                    <p>Donetor, CEO of Axion</p>
+                                    <h3>Elliot Adanin</h3>
+                                    <p>Founder, CEO</p>
                                 </div>
                                 <div class="author-img">
                                     <img src="../assets/img/testimonial/testi2-home-1.jpg" alt="">
@@ -470,12 +444,14 @@
                         <!--Single Testimonial Start-->
                         <div class="single-testimonial">
                             <div class="testimonial-content">
-                                <p>Pursue pleasure rationally encounter equences that treme painful. Nor again is there anyone  obtain pain of itself, because it is pain</p>
+                                <p>
+                                    A man there was, and they called him mad; the more he gave, the more he had.
+                                </p>
                             </div>
                             <div class="testimonial-author-info">
                                 <div class="team-author-deg">
-                                    <h3>Stephen Smith</h3>
-                                    <p>Donetor, CEO of Axion</p>
+                                    <h3>Elliot Adanin</h3>
+                                    <p>Founder, CEO</p>
                                 </div>
                                 <div class="author-img">
                                     <img src="../assets/img/testimonial/testi1-home-1.jpg" alt="">
@@ -488,12 +464,14 @@
                         <!--Single Testimonial Start-->
                         <div class="single-testimonial">
                             <div class="testimonial-content">
-                                <p>Pursue pleasure rationally encounter equences that treme painful. Nor again is there anyone  obtain pain of itself, because it is pain</p>
+                                <p>
+                                    When we give cheerfully and accept gratefully, everyone is blessed
+                                </p>
                             </div>
                             <div class="testimonial-author-info">
                                 <div class="team-author-deg">
-                                    <h3>Jeniger Hearly</h3>
-                                    <p>Donetor, CEO of Axion</p>
+                                    <h3>Elliot Adanin</h3>
+                                    <p>Founder, CEO</p>
                                 </div>
                                 <div class="author-img">
                                     <img src="../assets/img/testimonial/testi2-home-1.jpg" alt="">
@@ -508,94 +486,94 @@
         <!--Testimonial Area End-->
 
         <!--Our Blog Area Start-->
-        <div class="our-blog-area pt-115">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <!--Section Title Start-->
-                        <div class="section-title mb-60">
-                            <h2>Our Blog</h2>
-                            <p>Pursue pleasure rationally encounter consequences that extremely painful. Nor again is there anyone who loves or pursues </p>
-                        </div>
-                        <!--Section Title End-->
-                    </div>
-                </div>
-                <div class="row">
-                    <!--Single Blog Start-->
-                    <div class="col-lg-6 col-xl-3 col-md-6">
-                        <div class="single-blog mb-30">
-                            <div class="blog-img img-full">
-                                <a href="javascript:void(0)"><img src="../assets/img/blog/small/blog1.jpg" alt=""></a>
-                            </div>
-                            <div class="blog-content">
-                                <ul class="meta">
-                                    <li>By <a href="javascript:void(0)">Jenifer</a></li>
-                                    <li>25 Oct, 2018 </li>
-                                </ul>
-                                <h4 class="title"><a href="javascript:void(0)">Marathon compitition for fund rising</a></h4>
-                                <a href="javascript:void(0)">Continue Reading</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Single Blog End-->
-                    <!--Single Blog Start-->
-                    <div class="col-lg-6 col-xl-3 col-md-6">
-                        <div class="single-blog mb-30">
-                            <div class="blog-img img-full">
-                                <a href="javascript:void(0)"><img src="../assets/img/blog/small/blog2.jpg" alt=""></a>
-                            </div>
-                            <div class="blog-content">
-                                <ul class="meta">
-                                    <li>By <a href="javascript:void(0)">Jenifer</a></li>
-                                    <li>12 Nov, 2018 </li>
-                                </ul>
-                                <h4 class="title"><a href="javascript:void(0)">Africa Children Need More Food</a></h4>
-                                <a href="javascript:void(0)">Continue Reading</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Single Blog End-->
-                    <!--Single Blog Start-->
-                    <div class="col-lg-6 col-xl-3 col-md-6">
-                        <div class="single-blog mb-30">
-                            <div class="blog-img img-full">
-                                <a href="javascript:void(0)"><img src="../assets/img/blog/small/blog3.jpg" alt=""></a>
-                            </div>
-                            <div class="blog-content">
-                                <ul class="meta">
-                                    <li>By <a href="javascript:void(0)">Jenifer</a></li>
-                                    <li>15 Apr, 2018 </li>
-                                </ul>
-                                <h4 class="title"><a href="javascript:void(0)">Africa Children Water And Clothes</a></h4>
-                                <a href="javascript:void(0)">Continue Reading</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Single Blog End-->
-                    <!--Single Blog Start-->
-                    <div class="col-lg-6 col-xl-3 col-md-6">
-                        <div class="single-blog mb-30">
-                            <div class="blog-img img-full">
-                                <a href="javascript:void(0)"><img src="../assets/img/blog/small/blog4.jpg" alt=""></a>
-                            </div>
-                            <div class="blog-content">
-                                <ul class="meta">
-                                    <li>By <a href="javascript:void(0)">Jenifer</a></li>
-                                    <li>25 Feb, 2018 </li>
-                                </ul>
-                                <h4 class="title"><a href="javascript:void(0)">Marathon compitition for fund rising</a></h4>
-                                <a href="javascript:void(0)">Continue Reading</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Single Blog End-->
-                </div>
-            </div>
-        </div>
+<!--        <div class="our-blog-area pt-115">-->
+<!--            <div class="container">-->
+<!--                <div class="row">-->
+<!--                    <div class="col-12">-->
+<!--                        &lt;!&ndash;Section Title Start&ndash;&gt;-->
+<!--                        <div class="section-title mb-60">-->
+<!--                            <h2>Our Blog</h2>-->
+<!--                            <p>Pursue pleasure rationally encounter consequences that extremely painful. Nor again is there anyone who loves or pursues </p>-->
+<!--                        </div>-->
+<!--                        &lt;!&ndash;Section Title End&ndash;&gt;-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="row">-->
+<!--                    &lt;!&ndash;Single Blog Start&ndash;&gt;-->
+<!--                    <div class="col-lg-6 col-xl-3 col-md-6">-->
+<!--                        <div class="single-blog mb-30">-->
+<!--                            <div class="blog-img img-full">-->
+<!--                                <a href="javascript:void(0)"><img src="../assets/img/blog/small/blog1.jpg" alt=""></a>-->
+<!--                            </div>-->
+<!--                            <div class="blog-content">-->
+<!--                                <ul class="meta">-->
+<!--                                    <li>By <a href="javascript:void(0)">Jenifer</a></li>-->
+<!--                                    <li>25 Oct, 2018 </li>-->
+<!--                                </ul>-->
+<!--                                <h4 class="title"><a href="javascript:void(0)">Marathon compitition for fund rising</a></h4>-->
+<!--                                <a href="javascript:void(0)">Continue Reading</a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    &lt;!&ndash;Single Blog End&ndash;&gt;-->
+<!--                    &lt;!&ndash;Single Blog Start&ndash;&gt;-->
+<!--                    <div class="col-lg-6 col-xl-3 col-md-6">-->
+<!--                        <div class="single-blog mb-30">-->
+<!--                            <div class="blog-img img-full">-->
+<!--                                <a href="javascript:void(0)"><img src="../assets/img/blog/small/blog2.jpg" alt=""></a>-->
+<!--                            </div>-->
+<!--                            <div class="blog-content">-->
+<!--                                <ul class="meta">-->
+<!--                                    <li>By <a href="javascript:void(0)">Jenifer</a></li>-->
+<!--                                    <li>12 Nov, 2018 </li>-->
+<!--                                </ul>-->
+<!--                                <h4 class="title"><a href="javascript:void(0)">Africa Children Need More Food</a></h4>-->
+<!--                                <a href="javascript:void(0)">Continue Reading</a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    &lt;!&ndash;Single Blog End&ndash;&gt;-->
+<!--                    &lt;!&ndash;Single Blog Start&ndash;&gt;-->
+<!--                    <div class="col-lg-6 col-xl-3 col-md-6">-->
+<!--                        <div class="single-blog mb-30">-->
+<!--                            <div class="blog-img img-full">-->
+<!--                                <a href="javascript:void(0)"><img src="../assets/img/blog/small/blog3.jpg" alt=""></a>-->
+<!--                            </div>-->
+<!--                            <div class="blog-content">-->
+<!--                                <ul class="meta">-->
+<!--                                    <li>By <a href="javascript:void(0)">Jenifer</a></li>-->
+<!--                                    <li>15 Apr, 2018 </li>-->
+<!--                                </ul>-->
+<!--                                <h4 class="title"><a href="javascript:void(0)">Africa Children Water And Clothes</a></h4>-->
+<!--                                <a href="javascript:void(0)">Continue Reading</a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    &lt;!&ndash;Single Blog End&ndash;&gt;-->
+<!--                    &lt;!&ndash;Single Blog Start&ndash;&gt;-->
+<!--                    <div class="col-lg-6 col-xl-3 col-md-6">-->
+<!--                        <div class="single-blog mb-30">-->
+<!--                            <div class="blog-img img-full">-->
+<!--                                <a href="javascript:void(0)"><img src="../assets/img/blog/small/blog4.jpg" alt=""></a>-->
+<!--                            </div>-->
+<!--                            <div class="blog-content">-->
+<!--                                <ul class="meta">-->
+<!--                                    <li>By <a href="javascript:void(0)">Jenifer</a></li>-->
+<!--                                    <li>25 Feb, 2018 </li>-->
+<!--                                </ul>-->
+<!--                                <h4 class="title"><a href="javascript:void(0)">Marathon compitition for fund rising</a></h4>-->
+<!--                                <a href="javascript:void(0)">Continue Reading</a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    &lt;!&ndash;Single Blog End&ndash;&gt;-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
         <!--Our Blog Area End-->
 
         <!--Project Area Start-->
-        <div class="project-area pt-70 mb-5">
+        <div class="project-area pt-70">
             <div class="container-fluid p-0">
                 <div class="row no-gutters project-active owl-carousel">
                     <div class="col-12">

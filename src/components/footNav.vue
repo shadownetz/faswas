@@ -12,7 +12,9 @@
                                 <a class="footer-logo" href="javascript:void(0)">
                                     <img src="../assets/img/logo/logo.png" alt="">
                                 </a>
-                                <p>Pursue pleasure rationally encounter consequences that treme painful. Nor again is there anyone obtain pain </p>
+                                <p>
+                                    A global music conference founded by the Elldanin Humanitarian Foundation International, with the aim of sensitization and empowerment of 20,000+ children, women, youths, the elderly and persons with disability across different African countries
+                                </p>
                                 <h4 class="newslatter-title mb-1">Newsletter</h4>
                                 <p>
                                     Subscribe to receive notifications of our upcoming events
