@@ -88,8 +88,8 @@
                                 </p>
                                 <p class="ft-contact-info">
                                     <span>Web:</span>
-                                    <a href="javascript:void(0)">info@example.com</a>
-                                    <a href="javascript:void(0)">www.example.com</a>
+                                    <a href="javascript:void(0)">support@feedasoulwinasoul.com</a>
+                                    <a href="javascript:void(0)">www.feedasoulwinasoul.com</a>
                                 </p>
                             </div>
                         </div>
