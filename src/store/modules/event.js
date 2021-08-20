@@ -45,6 +45,26 @@ export default {
                 response.set_status(false, e)
             }
             return Promise.resolve(response)
-        }
+        },
+        async updateEvent(context, {u_event, o_event}){
+            const response = new CustomResponse();
+            try{
+                let new_event = new Event(u_event.data);
+                await new_event.update(u_event.id, o_event)
+            }catch (e){
+                response.set_status(false, e)
+            }
+            return Promise.resolve(response)
+        },
+        async deleteEvent(context, event){
+            const response = new CustomResponse();
+            try{
+                let new_event = new Event(event);
+                await new_event.delete(event.id)
+            }catch (e){
+                response.set_status(false, e)
+            }
+            return Promise.resolve(response)
+        },
     }
 }

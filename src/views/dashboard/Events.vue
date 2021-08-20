@@ -17,16 +17,18 @@
                                 {{event.data.title}}
                             </p>
                         </div>
-<!--                        <ul class="list-group list-group-flush">-->
-<!--                            <li class="list-group-item">Cras justo odio</li>-->
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                               Scheduled for: <span class="float-md-right">{{getReadableDatetime(event.data.scheduledFor)}}</span>
+                            </li>
 <!--                            <li class="list-group-item">Dapibus ac facilisis in</li>-->
 <!--                            <li class="list-group-item">Vestibulum at eros</li>-->
-<!--                        </ul>-->
+                        </ul>
                         <div class="card-body">
-                            <a href="#" class="card-link text-primary">
+                            <a href="javascript:void(0)" @click="curr_event=event" class="card-link text-primary" data-toggle="modal" data-target="#updateEventModal">
                                 <i class="fa fa-pencil"></i> Update
                             </a>
-                            <a href="#" class="card-link text-danger">
+                            <a href="javascript:void(0)" @click="deleteEvent(event)" class="card-link text-danger">
                                 <i class="fa fa-trash"></i> Delete
                             </a>
                         </div>
@@ -42,23 +44,43 @@
 
         <!-- Modal -->
         <add-event/>
-
+        <update-event :event="active_event" :prev-event="curr_event"/>
     </div>
 </template>
 
 <script>
 import addEvent from "../../components/dashboard/modals/addEvent";
-import {mapGetters} from "vuex"
+import updateEvent from "../../components/dashboard/modals/updateEvent";
+import {mapGetters, mapActions} from "vuex"
+import methodsMixin from "../../utils/methodsMixin";
+import {EventModel} from "../../models/event";
 
 export default {
     name: "Events",
+    data(){
+      return {
+          curr_event: {id: '', data: {}},
+          active_event: {id: '', data: {}},
+      }
+    },
+    watch: {
+        curr_event(newVal){
+            let tmp_event = Object.assign(new EventModel(), newVal.data);
+            this.active_event = {id: newVal.id, data: tmp_event}
+        }
+    },
     computed: {
       ...mapGetters({
           events: 'event/getEvents'
       })
     },
+    mixins: [methodsMixin],
+    methods: {
+        ...mapActions('event', ['deleteEvent'])
+    },
     components: {
-        addEvent
+        addEvent,
+        updateEvent
     },
     mounted() {
         this.$store.dispatch('event/fetchEvents')
