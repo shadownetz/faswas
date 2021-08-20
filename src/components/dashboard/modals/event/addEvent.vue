@@ -11,7 +11,7 @@
                 <div class="modal-body">
                     <div class="row justify-content-center">
                         <div class="event-image">
-                            <img id="ev-img" src="../../../assets/logos/calendar.png" alt="event image">
+                            <img id="ev-img" src="../../../../assets/logos/calendar.png" alt="event image">
                         </div>
                         <div class="col-12 text-center mt-4">
                             <label for="up-eve-img" class="btn btn-outline-dark">
@@ -44,8 +44,8 @@
 </template>
 
 <script>
-import {EventModel} from "../../../models/event";
-import CalenderImage from "../../../assets/logos/calendar.png"
+import {EventModel} from "../../../../models/event";
+import CalenderImage from "../../../../assets/logos/calendar.png"
 
 export default {
     name: "addEvent",

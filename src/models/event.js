@@ -34,7 +34,7 @@ class Event{
         try{
             const image_ext = file.name.split('.').pop();
             const image_name = `event_${new Date().valueOf()}.${image_ext}`
-            const imageRef = storageRef.child(`EventImages/${image_name}`)
+            const imageRef = storageRef.child(`event/images/${image_name}`)
             const upload_snapshot = await imageRef.put(file);
             response.data.url = await upload_snapshot.ref.getDownloadURL();
         }catch (e){

@@ -57,7 +57,12 @@ const routes = [
         path: '/dash-events',
         name: 'DashEvents',
         component: ()=> import("../views/dashboard/Events"),
-      }
+      },
+      {
+        path: '/dash-volunteers',
+        name: 'DashVolunteers',
+        component: ()=> import("../views/dashboard/Volunteers"),
+      },
     ]
   }
 

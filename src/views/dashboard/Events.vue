@@ -49,8 +49,8 @@
 </template>
 
 <script>
-import addEvent from "../../components/dashboard/modals/addEvent";
-import updateEvent from "../../components/dashboard/modals/updateEvent";
+import addEvent from "../../components/dashboard/modals/event/addEvent";
+import updateEvent from "../../components/dashboard/modals/event/updateEvent";
 import {mapGetters, mapActions} from "vuex"
 import methodsMixin from "../../utils/methodsMixin";
 import {EventModel} from "../../models/event";
