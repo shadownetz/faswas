@@ -6,6 +6,7 @@ const ls = new SecureLS({ isCompression: false });
 
 import event from "./modules/event";
 import volunteer from "./modules/volunteer";
+import gallery from "./modules/gallery";
 import firebase, {auth} from "../configs/firebase";
 import {CustomResponse} from "../utils/globalObjects";
 
@@ -51,6 +52,7 @@ export default new Vuex.Store({
   },
   modules: {
     event,
-    volunteer
+    volunteer,
+    gallery
   }
 })

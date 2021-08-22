@@ -20,7 +20,7 @@
                     <router-link :to="{name: 'DashEvents'}" class="nav-item nav-link" :class="$route.name==='Events'?'active':''">
                         Events
                     </router-link>
-                    <router-link :to="{name: 'Dashboard'}" class="nav-item nav-link" :class="$route.name==='Gallery'?'active':''">
+                    <router-link :to="{name: 'DashGalleries'}" class="nav-item nav-link" :class="$route.name==='Gallery'?'active':''">
                         Gallery
                     </router-link>
                     <router-link :to="{name: 'DashVolunteers'}" class="nav-item nav-link" :class="$route.name==='DashVolunteers'?'active':''">
