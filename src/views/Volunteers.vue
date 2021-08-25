@@ -24,137 +24,51 @@
         <div class="volunteer-area pt-100 pb-100">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-lg-4 col-12">
-                        <!--Single Volunteer Start-->
-                        <div class="single-volunteer mb-30">
-                            <div class="volunteer-img img-full">
-                                <img src="../assets/img/team/team1.jpg" alt="">
+                    <template v-if="volunteers.length > 0">
+                        <div class="col-md-6 col-lg-4 col-12" v-for="(volunteer, idx) in volunteers" :key="'volun_'+idx">
+                            <!--Single Volunteer Start-->
+                            <div class="single-volunteer mb-30">
+                                <div class="volunteer-img img-full">
+                                    <img :src="volunteer.data.image" alt="">
+                                </div>
+                                <div class="volunteer-content">
+                                    <h3 class="member-name"><a href="javascript:void(0)">{{volunteer.data.name}}</a></h3>
+                                    <p class="designation">{{volunteer.data.position}}</p>
+                                    <ul>
+                                        <li v-for="(value, key, idx1) in volunteer.data.social" :key="'social_'+idx1">
+                                            <a :href="value" v-if="key!=='whatsapp'">
+                                                <i :class="`fa fa-${key}`"></i>
+                                            </a>
+                                            <a :href="`https://wa.me/${value}`" target="_blank" v-else>
+                                                <i :class="`fa fa-${key}`"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="volunteer-content">
-                                <h3 class="member-name"><a href="javascript:void(0)">Nata Albarac</a></h3>
-                                <p class="designation">Coordinator</p>
-                                <ul>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-instagram"></i></a></li>
-                                </ul>
-                            </div>
+                            <!--Single Volunteer End-->
                         </div>
-                        <!--Single Volunteer End-->
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-12">
-                        <!--Single Volunteer Start-->
-                        <div class="single-volunteer mb-30">
-                            <div class="volunteer-img img-full">
-                                <img src="../assets/img/team/team2.jpg" alt="">
-                            </div>
-                            <div class="volunteer-content">
-                                <h3 class="member-name"><a href="javascript:void(0)">Anam Anna</a></h3>
-                                <p class="designation">Modaretor</p>
-                                <ul>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-instagram"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!--Single Volunteer End-->
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-12">
-                        <!--Single Volunteer Start-->
-                        <div class="single-volunteer mb-30">
-                            <div class="volunteer-img img-full">
-                                <img src="../assets/img/team/team3.jpg" alt="">
-                            </div>
-                            <div class="volunteer-content">
-                                <h3 class="member-name"><a href="javascript:void(0)">Elly Roberts</a></h3>
-                                <p class="designation">Engineer</p>
-                                <ul>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-instagram"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!--Single Volunteer End-->
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-12">
-                        <!--Single Volunteer Start-->
-                        <div class="single-volunteer mb-30">
-                            <div class="volunteer-img img-full">
-                                <img src="../assets/img/team/team4.jpg" alt="">
-                            </div>
-                            <div class="volunteer-content">
-                                <h3 class="member-name"><a href="javascript:void(0)">Raymond Rice</a></h3>
-                                <p class="designation">Student</p>
-                                <ul>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-instagram"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!--Single Volunteer End-->
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-12">
-                        <!--Single Volunteer Start-->
-                        <div class="single-volunteer mb-30">
-                            <div class="volunteer-img img-full">
-                                <img src="../assets/img/team/team5.jpg" alt="">
-                            </div>
-                            <div class="volunteer-content">
-                                <h3 class="member-name"><a href="javascript:void(0)">Kristy Ewin</a></h3>
-                                <p class="designation">Photographer</p>
-                                <ul>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-instagram"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!--Single Volunteer End-->
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-12">
-                        <!--Single Volunteer Start-->
-                        <div class="single-volunteer mb-30">
-                            <div class="volunteer-img img-full">
-                                <img src="../assets/img/team/team6.jpg" alt="">
-                            </div>
-                            <div class="volunteer-content">
-                                <h3 class="member-name"><a href="javascript:void(0)">Tillie Evans</a></h3>
-                                <p class="designation">Teacher</p>
-                                <ul>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-instagram"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!--Single Volunteer End-->
+                    </template>
+                    <div class="col-12 text-center mt-5" v-else>
+                        <h4>Nothing to show here.</h4>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-12">
-                        <!--Pagination Start-->
-                        <div class="product-pagination">
-                            <ul>
-                                <li class="active"><a href="javascript:void(0)">1</a></li>
-                                <li><a href="javascript:void(0)">2</a></li>
-                                <li><a href="javascript:void(0)">3</a></li>
-                                <li><a href="javascript:void(0)">4</a></li>
-                                <li><a href="javascript:void(0)">5</a></li>
-                                <li><a href="javascript:void(0)"><i class="fa fa-angle-double-right"></i></a></li>
-                            </ul>
-                        </div>
-                        <!--Pagination End-->
-                    </div>
-                </div>
+<!--                <div class="row">-->
+<!--                    <div class="col-12">-->
+<!--                        &lt;!&ndash;Pagination Start&ndash;&gt;-->
+<!--                        <div class="product-pagination">-->
+<!--                            <ul>-->
+<!--                                <li class="active"><a href="javascript:void(0)">1</a></li>-->
+<!--                                <li><a href="javascript:void(0)">2</a></li>-->
+<!--                                <li><a href="javascript:void(0)">3</a></li>-->
+<!--                                <li><a href="javascript:void(0)">4</a></li>-->
+<!--                                <li><a href="javascript:void(0)">5</a></li>-->
+<!--                                <li><a href="javascript:void(0)"><i class="fa fa-angle-double-right"></i></a></li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
+<!--                        &lt;!&ndash;Pagination End&ndash;&gt;-->
+<!--                    </div>-->
+<!--                </div>-->
             </div>
         </div>
         <!--Volunteer Area End-->
@@ -163,8 +77,17 @@
 </template>
 
 <script>
+import {mapGetters} from 'vuex'
 export default {
-    name: "Volunteers"
+    name: "Volunteers",
+    computed: {
+        ...mapGetters('volunteer', {
+            volunteers: 'getVolunteers'
+        })
+    },
+    mounted(){
+        this.$store.dispatch('volunteer/fetchVolunteers')
+    }
 }
 </script>
 

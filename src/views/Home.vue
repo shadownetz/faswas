@@ -5,7 +5,7 @@
         <div class="slider-area">
             <div class="hero-slider owl-carousel">
                 <!--Single Slider Start-->
-                <div class="single-slider" :style="{backgroundImage: 'url('+slider1+')'}">
+                <div class="single-slider" :style="{backgroundImage: 'url('+slider2+')'}">
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
@@ -24,7 +24,7 @@
                 <!--Single Slider End-->
 
                 <!--Single Slider Start-->
-                <div class="single-slider" style="background-image: url(../assets/img/slider/slide1-home-1.jpg)">
+                <div class="single-slider" :style="{backgroundImage: 'url('+slider1+')'}">
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
@@ -622,7 +622,8 @@
 <script>
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
-import slider1 from "../assets/img/slider/slide2-home-1.jpg";
+import slider1 from "../assets/img/slider/slider-1.jpeg";
+import slider2 from "../assets/img/slider/slider-2.jpeg";
 import funBG from "../assets/img/bg/bg2.jpg";
 import serviceBG from "../assets/img/bg/bg1.jpg";
 
@@ -631,6 +632,7 @@ export default {
     data(){
         return {
             slider1,
+            slider2,
             funBG,
             serviceBG
         }

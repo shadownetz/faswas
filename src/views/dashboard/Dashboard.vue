@@ -7,7 +7,7 @@
                         <div class="col">
                             <i class="fa fa-calendar"></i>
                         </div>
-                        <h3>0</h3>
+                        <h3>{{events.length}}</h3>
                         <h1>Events</h1>
                     </div>
                 </div>
@@ -16,7 +16,7 @@
                         <div class="col">
                             <i class="fa fa-image"></i>
                         </div>
-                        <h3>0</h3>
+                        <h3>{{galleries.length}}</h3>
                         <h1>Gallery</h1>
                     </div>
                 </div>
@@ -25,7 +25,7 @@
                         <div class="col">
                             <i class="fa fa-users"></i>
                         </div>
-                        <h3>0</h3>
+                        <h3>{{volunteers.length}}</h3>
                         <h1>Volunteers</h1>
                     </div>
                 </div>
@@ -35,8 +35,17 @@
 </template>
 
 <script>
+import {mapGetters} from "vuex"
+
 export default {
-    name: "Dashboard"
+    name: "Dashboard",
+    computed: {
+        ...mapGetters({
+            events: 'event/getEvents',
+            galleries: 'gallery/getGalleries',
+            volunteers: 'volunteer/getVolunteers'
+        })
+    }
 }
 </script>
 

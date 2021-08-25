@@ -24,81 +24,28 @@
         <div class="gallery-area pt-100 pb-100">
             <div class="container">
                 <div class="row">
-                    <!--Single Gallery Image Start-->
-                    <div class="col-md-4 col-sm-6">
-                        <div class="single-gallery-img mb-30">
-                            <a href="../assets/img/gallery/gallery1.jpg" data-fancybox="gallery">
-                                <img src="../assets/img/gallery/gallery1.jpg" alt="">
-                            </a>
+                    <template v-if="galleries.length > 0">
+                        <div class="col-md-4 col-sm-6 mt-3" v-for="(gallery, idx) in galleries" :key="'gallery_'+idx">
+                            <div class="single-gallery-img mb-30" style="background-color: #333333; height:100%">
+                                <a :href="gallery.data.image" data-fancybox="gallery">
+                                    <img :src="gallery.data.image" alt="">
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    <!--Single Gallery Image End-->
-                    <!--Single Gallery Image Start-->
-                    <div class="col-md-4 col-sm-6">
-                        <div class="single-gallery-img mb-30">
-                            <a href="../assets/img/gallery/gallery2.jpg" data-fancybox="gallery"><img src="../assets/img/gallery/gallery2.jpg" alt=""></a>
-                        </div>
-                    </div>
-                    <!--Single Gallery Image End-->
-                    <!--Single Gallery Image Start-->
-                    <div class="col-md-4 col-sm-6">
-                        <div class="single-gallery-img mb-30">
-                            <a href="../assets/img/gallery/gallery3.jpg" data-fancybox="gallery"><img src="../assets/img/gallery/gallery3.jpg" alt=""></a>
-                        </div>
-                    </div>
-                    <!--Single Gallery Image End-->
-                    <!--Single Gallery Image Start-->
-                    <div class="col-md-4 col-sm-6">
-                        <div class="single-gallery-img mb-30">
-                            <a href="../assets/img/gallery/gallery4.jpg" data-fancybox="gallery"><img src="../assets/img/gallery/gallery4.jpg" alt=""></a>
-                        </div>
-                    </div>
-                    <!--Single Gallery Image End-->
-                    <!--Single Gallery Image Start-->
-                    <div class="col-md-4 col-sm-6">
-                        <div class="single-gallery-img mb-30">
-                            <a href="../assets/img/gallery/gallery5.jpg" data-fancybox="gallery"><img src="../assets/img/gallery/gallery5.jpg" alt=""></a>
-                        </div>
-                    </div>
-                    <!--Single Gallery Image End-->
-                    <!--Single Gallery Image Start-->
-                    <div class="col-md-4 col-sm-6">
-                        <div class="single-gallery-img mb-30">
-                            <a href="../assets/img/gallery/gallery6.jpg" data-fancybox="gallery"><img src="../assets/img/gallery/gallery6.jpg" alt=""></a>
-                        </div>
-                    </div>
-                    <!--Single Gallery Image End-->
-                    <!--Single Gallery Image Start-->
-                    <div class="col-md-4 col-sm-6">
-                        <div class="single-gallery-img mb-30">
-                            <a href="../assets/img/gallery/gallery7.jpg" data-fancybox="gallery"><img src="../assets/img/gallery/gallery7.jpg" alt=""></a>
-                        </div>
-                    </div>
-                    <!--Single Gallery Image End-->
-                    <!--Single Gallery Image Start-->
-                    <div class="col-md-4 col-sm-6">
-                        <div class="single-gallery-img mb-30">
-                            <a href="../assets/img/gallery/gallery8.jpg" data-fancybox="gallery"><img src="../assets/img/gallery/gallery8.jpg" alt=""></a>
-                        </div>
-                    </div>
-                    <!--Single Gallery Image End-->
-                    <!--Single Gallery Image Start-->
-                    <div class="col-md-4 col-sm-6">
-                        <div class="single-gallery-img mb-30">
-                            <a href="../assets/img/gallery/gallery9.jpg" data-fancybox="gallery"><img src="../assets/img/gallery/gallery9.jpg" alt=""></a>
-                        </div>
-                    </div>
-                    <!--Single Gallery Image End-->
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <!--See More Button Start-->
-                        <div class="see-more-btn">
-                            <a href="javascript:void(0)">see more</a>
-                        </div>
-                        <!--See More Button End-->
+                    </template>
+                    <div class="col-12 text-center mt-5" v-else>
+                        <h4>Nothing to show here.</h4>
                     </div>
                 </div>
+<!--                <div class="row">-->
+<!--                    <div class="col-12">-->
+<!--                        &lt;!&ndash;See More Button Start&ndash;&gt;-->
+<!--                        <div class="see-more-btn">-->
+<!--                            <a href="javascript:void(0)">see more</a>-->
+<!--                        </div>-->
+<!--                        &lt;!&ndash;See More Button End&ndash;&gt;-->
+<!--                    </div>-->
+<!--                </div>-->
             </div>
         </div>
         <!--Gallery Area End-->
@@ -107,8 +54,18 @@
 </template>
 
 <script>
+import {mapGetters} from "vuex"
+
 export default {
-    name: "Gallery"
+    name: "Gallery",
+    computed: {
+      ...mapGetters('gallery', {
+          galleries: 'getGalleries'
+      })
+    },
+    mounted() {
+        this.$store.dispatch('gallery/fetchGalleries')
+    }
 }
 </script>
 

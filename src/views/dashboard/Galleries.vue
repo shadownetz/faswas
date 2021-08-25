@@ -8,7 +8,7 @@
         </div>
         <div class="row">
             <template v-if="galleries.length > 0">
-                <div class="col-12 col-lg-4" v-for="(gallery, idx) in galleries" :key="'gallery_'+idx">
+                <div class="col-12 col-lg-3 mt-2" v-for="(gallery, idx) in galleries" :key="'gallery_'+idx">
                     <div class="card">
                         <img class="card-img-top" :src="gallery.data.image" alt="gallery image">
                         <div class="card-body">
