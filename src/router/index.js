@@ -67,6 +67,11 @@ const routes = [
         path: '/dash-galleries',
         name: 'DashGalleries',
         component: ()=> import("../views/dashboard/Galleries"),
+      },
+      {
+        path: '/dash-contacts',
+        name: 'DashContacts',
+        component: ()=> import("../views/dashboard/Contacts"),
       }
     ]
   }

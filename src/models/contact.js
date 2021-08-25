@@ -1,7 +1,20 @@
-import {firestore} from "../configs/firebase";
+import {contactStore, firestore} from "../configs/firebase";
 
 class Contact{
-    constructor() {
+    constructor(contact) {
+        this.data = Object.assign(new Model(), contact)
+    }
+
+    addContact(){
+        return contactStore.add(Object.assign({}, this.data))
+    }
+
+    updateContact(id, new_data){
+        return contactStore.doc(id).update(Object.assign({}, new_data))
+    }
+
+    deleteContact(id){
+        return contactStore.doc(id).delete()
     }
 }
 

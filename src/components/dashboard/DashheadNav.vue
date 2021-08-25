@@ -26,10 +26,10 @@
                     <router-link :to="{name: 'DashVolunteers'}" class="nav-item nav-link" :class="$route.name==='DashVolunteers'?'active':''">
                         Volunteers
                     </router-link>
-                    <router-link :to="{name: 'Dashboard'}" class="nav-item nav-link" :class="$route.name==='Contacts'?'active':''">
+                    <router-link :to="{name: 'DashContacts'}" class="nav-item nav-link" :class="$route.name==='DashContacts'?'active':''">
                         Contacts
                     </router-link>
-                    <a class="nav-item nav-link" href="javascript:void(0)">Logout</a>
+                    <a class="nav-item nav-link" @click="logout" href="javascript:void(0)">Logout</a>
                 </div>
             </div>
         </nav>
@@ -40,7 +40,12 @@
 
 <script>
 export default {
-    name: "DashHeadNav"
+    name: "DashHeadNav",
+    methods: {
+        logout(){
+            return this.$store.dispatch('logout')
+        }
+    }
 }
 </script>
 

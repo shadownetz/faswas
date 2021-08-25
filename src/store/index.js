@@ -7,8 +7,11 @@ const ls = new SecureLS({ isCompression: false });
 import event from "./modules/event";
 import volunteer from "./modules/volunteer";
 import gallery from "./modules/gallery";
+import contact from "./modules/contact";
 import firebase, {auth} from "../configs/firebase";
 import {CustomResponse} from "../utils/globalObjects";
+
+import router from "../router";
 
 Vue.use(Vuex)
 
@@ -48,11 +51,24 @@ export default new Vuex.Store({
         response.set_status(false, e)
       }
       return Promise.resolve(response)
+    },
+    async logout({commit}){
+      commit('contact/reset', null, {root: true});
+      commit('event/reset', null, {root: true});
+      commit('gallery/reset', null, {root: true});
+      commit('volunteer/reset', null, {root: true});
+      try{
+        await firebase.auth().signOut()
+      }catch (e){
+        console.log(e)
+      }
+      return router.push({name: 'Home'})
     }
   },
   modules: {
     event,
     volunteer,
-    gallery
+    gallery,
+    contact
   }
 })
