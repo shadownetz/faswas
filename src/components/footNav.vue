@@ -15,18 +15,18 @@
                                 <p>
                                     A global music conference founded by the Elldanin Humanitarian Foundation International, with the aim of sensitization and empowerment of 20,000+ children, women, youths, the elderly and persons with disability across different African countries
                                 </p>
-                                <h4 class="newslatter-title mb-1">Newsletter</h4>
-                                <p>
-                                    Subscribe to receive notifications of our upcoming events
-                                </p>
-                                <form id="mc-embedded-subscribe-form" @submit.prevent="subscribe" name="mc-embedded-subscribe-form" class="footer-subscribe-form validate" novalidate>
-                                    <div id="mc_embed_signup_scroll">
-                                        <div id="mc-form" class="mc-form subscribe-form" >
-                                            <input id="mc-email" type="email" autocomplete="off" placeholder="Enter your email" />
-                                            <button id="mc-submit">SEND</button>
-                                        </div>
-                                    </div>
-                                </form>
+<!--                                <h4 class="newslatter-title mb-1">Newsletter</h4>-->
+<!--                                <p>-->
+<!--                                    Subscribe to receive notifications of our upcoming events-->
+<!--                                </p>-->
+<!--                                <form id="mc-embedded-subscribe-form" @submit.prevent="subscribe" name="mc-embedded-subscribe-form" class="footer-subscribe-form validate" novalidate>-->
+<!--                                    <div id="mc_embed_signup_scroll">-->
+<!--                                        <div id="mc-form" class="mc-form subscribe-form" >-->
+<!--                                            <input id="mc-email" type="email" autocomplete="off" placeholder="Enter your email" />-->
+<!--                                            <button id="mc-submit">SEND</button>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </form>-->
                             </div>
                         </div>
                         <!--Single Footer Widget End-->
@@ -101,7 +101,7 @@
             <!--Footer Bottom Area Start-->
             <div class="footer-bottom-area pt-20 pb-20">
                 <div class="container text-center">
-                    <p><span>&copy;</span> Copyright, All right reserved by <a href="javascript:void(0)">FASWAS</a> - {{(()=>new Date().getFullYear())()}}</p>
+                    <p><span>&copy;</span> Copyright, All right reserved by <a href="javascript:void(0)">Elldanin Humanitarian Foundation International</a> - {{(()=>new Date().getFullYear())()}}</p>
                 </div>
             </div>
             <!--Footer Bottom Area End-->

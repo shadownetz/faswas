@@ -216,7 +216,7 @@
                                     <p>Founder, CEO</p>
                                 </div>
                                 <div class="author-img">
-                                    <img src="../assets/img/testimonial/testi1-home-1.jpg" alt="">
+                                    <img src="../assets/img/testimonial/akumoni.jpeg" alt="" style="width: 120px;height:150px">
                                 </div>
                             </div>
                         </div>
@@ -236,47 +236,7 @@
                                     <p>Founder, CEO</p>
                                 </div>
                                 <div class="author-img">
-                                    <img src="../assets/img/testimonial/testi2-home-1.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <!--Single Testimonial End-->
-                    </div>
-                    <div class="col-6">
-                        <!--Single Testimonial Start-->
-                        <div class="single-testimonial">
-                            <div class="testimonial-content">
-                                <p>
-                                    A man there was, and they called him mad; the more he gave, the more he had.
-                                </p>
-                            </div>
-                            <div class="testimonial-author-info">
-                                <div class="team-author-deg">
-                                    <h3>Elliot Adanin</h3>
-                                    <p>Founder, CEO</p>
-                                </div>
-                                <div class="author-img">
-                                    <img src="../assets/img/testimonial/testi1-home-1.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <!--Single Testimonial End-->
-                    </div>
-                    <div class="col-6">
-                        <!--Single Testimonial Start-->
-                        <div class="single-testimonial">
-                            <div class="testimonial-content">
-                                <p>
-                                    When we give cheerfully and accept gratefully, everyone is blessed
-                                </p>
-                            </div>
-                            <div class="testimonial-author-info">
-                                <div class="team-author-deg">
-                                    <h3>Elliot Adanin</h3>
-                                    <p>Founder, CEO</p>
-                                </div>
-                                <div class="author-img">
-                                    <img src="../assets/img/testimonial/testi2-home-1.jpg" alt="">
+                                    <img src="../assets/img/testimonial/akumoni.jpeg" alt="" style="width: 120px;height:150px">
                                 </div>
                             </div>
                         </div>

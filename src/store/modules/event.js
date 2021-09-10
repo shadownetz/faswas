@@ -36,6 +36,26 @@ export default {
                 commit('setEvents', tmp_arr)
             })
         },
+        async fetchLimitedEvents(conetxt, limit=4){
+            const response = new CustomResponse();
+            response.data = [];
+            try{
+                let _response = await eventStore
+                    .orderBy('createdAt', 'desc')
+                    .limit(limit)
+                    .get();
+                if(!_response.empty){
+                    _response.forEach(doc=>{
+                        if(doc.exists){
+                            response.data.push({id: doc.id, data: doc.data()})
+                        }
+                    })
+                }
+            }catch (e){
+                response.set_status(false, e)
+            }
+            return Promise.resolve(response)
+        },
         async addEvent(context, event){
             const response = new CustomResponse();
             try{
