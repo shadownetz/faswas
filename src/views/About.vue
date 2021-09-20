@@ -38,10 +38,10 @@
                         <!--About Content Area Start-->
                         <div class="about-content">
                             <h2>FASWAS</h2>
-                            <h3>Feed a Soul Win a Soul.</h3>
+                            <h3>Feed a Soul - Win a Soul.</h3>
                             <h4>Love is Our Religion</h4>
                             <p>
-                                "Feed a Soul Win a Soul" is global music conference founded by the Elldanin Humanitarian Foundation International (EHFI),
+                                "Feed a Soul - Win a Soul" is global music conference founded by the Elldanin Humanitarian Foundation International (EHFI),
                                 with the aim of <strong>sensitization</strong> and <strong>empowerment</strong> of 20,000+
                                 children, women, youths, the elderly and persons with disability across different
                                 African countries
@@ -63,7 +63,7 @@
                             <div class="col-12">
                                 <div class="service-section-title mb-40">
                                     <h2>Elldanin Humanitarian Foundation International</h2>
-                                    <h3 class="text-muted">Founder of Feed a Soul Win a Soul</h3>
+                                    <h3 class="text-muted">Founder of Feed a Soul - Win a Soul</h3>
                                     <p>
                                         The <a href="javascript:void(0)">Elldanin Humanitarian Foundation International</a> (E.H.F.I) is a <br>non-governmental organization founded by popular Nigerian music Artist, Humanitarian, Public Speaker, Entrepreneur and Author at
                                         <a href="javascript:void(0)">Ellbanks Universal Music</a>, ELLIOT ADANIN OKPATAKU aka Akumonibanks.
@@ -212,7 +212,7 @@
                             </div>
                             <div class="testimonial-author-info">
                                 <div class="team-author-deg">
-                                    <h3>Elliot Adanin</h3>
+                                    <h3>Adanin Elliot Okpataku</h3>
                                     <p>Founder, CEO</p>
                                 </div>
                                 <div class="author-img">
@@ -232,7 +232,7 @@
                             </div>
                             <div class="testimonial-author-info">
                                 <div class="team-author-deg">
-                                    <h3>Elliot Adanin</h3>
+                                    <h3>Adanin Elliot Okpataku</h3>
                                     <p>Founder, CEO</p>
                                 </div>
                                 <div class="author-img">

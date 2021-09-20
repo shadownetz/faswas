@@ -371,7 +371,7 @@
                             </div>
                             <div class="testimonial-author-info">
                                 <div class="team-author-deg">
-                                    <h3>Elliot Adanin</h3>
+                                    <h3>Adanin Elliot Okpataku</h3>
                                     <p>Founder, CEO</p>
                                 </div>
                                 <div class="author-img">
@@ -391,7 +391,7 @@
                             </div>
                             <div class="testimonial-author-info">
                                 <div class="team-author-deg">
-                                    <h3>Elliot Adanin</h3>
+                                    <h3>Adanin Elliot Okpataku</h3>
                                     <p>Founder, CEO</p>
                                 </div>
                                 <div class="author-img">
