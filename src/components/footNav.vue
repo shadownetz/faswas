@@ -79,17 +79,19 @@
                                 <h3 class="footer-title">Contact Info</h3>
                                 <p class="ft-address">
                                     <span>Address:</span>
-                                    245 Central Tower, 4th Floow New City, Lagos, Nigeria
+                                    Shop Block A, 3rd Floor,
+                                    Shop 25/28, Agric Plaza
+                                    Odun Ade, Lagos, Nigeria
                                 </p>
                                 <p class="ft-contact-info ds-inline">
                                     <span>Call us:</span>
-                                    <a href="javascript:void(0)">+12546 658 987</a>,
-                                    <a href="javascript:void(0)">+12548 789 987</a>
+                                    <a href="tel:+2349039038475">+2349039038475</a>
+<!--                                    <a href="javascript:void(0)">+12548 789 987</a>-->
                                 </p>
                                 <p class="ft-contact-info">
                                     <span>Web:</span>
-                                    <a href="javascript:void(0)">support@feedasoulwinasoul.com</a>
-                                    <a href="javascript:void(0)">www.feedasoulwinasoul.com</a>
+                                    <a href="mailto:support@feedasoulwinasoul.com">support@feedasoulwinasoul.com</a>
+                                    <a href="https://www.feedasoulwinasoul.com">www.feedasoulwinasoul.com</a>
                                 </p>
                             </div>
                         </div>

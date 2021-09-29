@@ -234,29 +234,29 @@
                                 </div>
                                 <div class="col-md-4">
                                     <div class="single-donet-product">
-                                        <img src="../assets/img/donate/donet-product11.png" alt="">
+                                        <img src="../assets/img/donate/donet-product12.png" alt="">
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="single-donet-product">
-                                        <img src="../assets/img/donate/donet-product11.png" alt="">
+                                        <img src="../assets/img/donate/donet-product13.png" alt="">
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="single-donet-product">
-                                        <img src="../assets/img/donate/donet-product11.png" alt="">
+                                        <img src="../assets/img/donate/donet-product15.png" alt="">
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="single-donet-product">
-                                        <img src="../assets/img/donate/donet-product11.png" alt="">
+                                        <img src="../assets/img/donate/donet-product14.png" alt="">
                                     </div>
                                 </div>
-                                <div class="col-md-4">
-                                    <div class="single-donet-product">
-                                        <img src="../assets/img/donate/donet-product11.png" alt="">
-                                    </div>
-                                </div>
+<!--                                <div class="col-md-4">-->
+<!--                                    <div class="single-donet-product">-->
+<!--                                        <img src="../assets/img/donate/donet-product11.png" alt="">-->
+<!--                                    </div>-->
+<!--                                </div>-->
                             </div>
                         </div>
                     </div>

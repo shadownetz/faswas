@@ -88,21 +88,23 @@
                             <div class="astha-contact-info">
                                 <h4>Address</h4>
                                 <p>
-                                    245 Central Tower, 4th Floow New City, Lagos, Nigeria
+                                    Shop Block A, 3rd Floor,
+                                    Shop 25/28, Agric Plaza
+                                    Odun Ade, Lagos, Nigeria
                                 </p>
                             </div>
                             <div class="astha-contact-info">
                                 <h4>Email</h4>
-                                <p>info@example.com</p>
-                                <p>info@example.com</p>
+                                <p>support@feedasoulwinasoul.com</p>
+<!--                                <p>info@example.com</p>-->
                             </div>
                             <div class="astha-contact-info">
                                 <h4>Phone No</h4>
-                                <p>+12546 658 987</p>
-                                <p>+12546 658 987</p>
+                                <p>+2349039038475</p>
+<!--                                <p>+12546 658 987</p>-->
                             </div>
                             <div class="astha-contact-info-web">
-                                <p class="web-address">www.faswas.com</p>
+                                <p class="web-address">feedasoulwinasoul.com</p>
                             </div>
                         </div>
                     </div>
