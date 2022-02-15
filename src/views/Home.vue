@@ -244,7 +244,7 @@
                                 </div>
                                 <div class="col-md-4">
                                     <div class="single-donet-product">
-                                        <img src="../assets/img/donate/donet-product15.png" alt="">
+                                        <img src="../assets/img/donate/donet-product15.png" alt="" style="max-width: 100%">
                                     </div>
                                 </div>
                                 <div class="col-md-4">
