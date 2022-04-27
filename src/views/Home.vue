@@ -87,10 +87,11 @@
                                     <h2>FASWAS</h2>
                                     <h3>Feed a Soul - Win a Soul</h3>
                                     <p>
-                                        "Feed a Soul - Win a Soul" is global music conference founded by the Elldanin Humanitarian Foundation International (EHFI),
-                                        with the aim of <strong>sensitization</strong> and <strong>empowerment</strong> of 20,000+
-                                        children, women, youths, the elderly and persons with disability across different
-                                        African countries
+                                        "Feed a Soul - Win a Soul" is an initiative of the <a href="javascript:void(0)">Elldanin Humanitarian Foundation International</a> (EHFI),
+                                        with the aim of providing food to less privileged Nigerians. Our society continues to degenerate by the day,
+                                        and as feeding becomes increasingly difficult, crime increases as well. This initiative has broad impact on society,
+                                        as providing food to a hungry human is an act of love which equally elicits love for others, and the beautiful circle continues.
+                                        This is an all-round win for society.
                                     </p>
                                 </div>
                             </div>

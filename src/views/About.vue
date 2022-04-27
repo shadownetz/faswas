@@ -104,6 +104,9 @@
                                             Lots more.
                                         </li>
                                     </ol>
+                                    <p>
+                                        Food is essential for happiness, and as Helen Keller aptly put it <q><b>Happiness rarely keeps company with an empty stomach.</b></q> Together, we can bring happiness to multitudes by helping them get food. In the end, love spreads.
+                                    </p>
                                 </div>
                             </div>
                         </div>
