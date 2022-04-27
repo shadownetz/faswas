@@ -39,14 +39,17 @@
                         <div class="about-content">
                             <h2>FASWAS</h2>
                             <h3>Feed a Soul - Win a Soul.</h3>
-                            <h4>Love is Our Religion</h4>
+                            <h4><q>If you can’t feed a hundred people, then just feed one.</q> <i>– Mother Theresa</i></h4>
                             <p>
-                                "Feed a Soul - Win a Soul" is global music conference founded by the Elldanin Humanitarian Foundation International (EHFI),
-                                with the aim of <strong>sensitization</strong> and <strong>empowerment</strong> of 20,000+
-                                children, women, youths, the elderly and persons with disability across different
-                                African countries
+                                "Feed a Soul - Win a Soul" is an initiative of the Elldanin Humanitarian Foundation International (EHFI),
+                                with the aim of providing food to less privileged Nigerians. Our society continues to degenerate by the day,
+                                and as feeding becomes increasingly difficult, crime increases as well. This initiative has broad impact on society,
+                                as providing food to a hungry human is an act of love which equally elicits love for others, and the beautiful circle continues.
+                                This is an all-round win for society.
                             </p>
-                            <a class="default-btn" href="javascript:void(0)">Contact</a>
+                            <router-link class="default-btn"  :to="{name: 'Contact'}">
+                                Contact
+                            </router-link>
                         </div>
                         <!--About Content Area End-->
                     </div>
@@ -58,96 +61,50 @@
         <div class="service-area" :style="{backgroundImage: 'url('+serviceBG+')'}">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-7">
+                    <div class="col-12">
                         <div class="row">
                             <div class="col-12">
                                 <div class="service-section-title mb-40">
                                     <h2>Elldanin Humanitarian Foundation International</h2>
                                     <h3 class="text-muted">Founder of Feed a Soul - Win a Soul</h3>
                                     <p>
-                                        The <a href="javascript:void(0)">Elldanin Humanitarian Foundation International</a> (E.H.F.I) is a <br>non-governmental organization founded by popular Nigerian music Artist, Humanitarian, Public Speaker, Entrepreneur and Author at
-                                        <a href="javascript:void(0)">Ellbanks Universal Music</a>, ELLIOT ADANIN OKPATAKU aka Akumonibanks.
+                                        As eradication of hunger by 2030 is one of the Sustainable Development
+                                        Goals (SDGs) of the United Nations, all well-meaning people should do their bit
+                                        to achieve it. To this extent, the <a href="javascript:void(0)">Elldanin Humanitarian Foundation International</a> (EHFI),
+                                        uses the “Feed a Soul - Win a Soul" initiative to provide succor to the needy.
+                                        The beneficiaries of this programme include street beggars, prison inmates, children in orphanages,
+                                        patients of public hospitals or care homes and lots more.
                                     </p>
                                     <p>
-                                        The Foundation was established July, 2021 with a clear vision and mission of establishing a grass root outreach program that seeks to enhance the life of all displaced and under-privileged women, girls, children, youths, the elderly and persons with disability in Nigeria and the rest of Africa irrespective of their Religious and Cultural divergence.
+                                        Between 2018 and 2020, on average 21.4 percent (over 40 million) Nigerians
+                                        experienced hunger. People in severe food insecurity would go for entire days without food,
+                                        due to lack of money or other resources. This has a corresponding impact on many of the challenges the country faces.
+                                        Food is a critical requirement for well-being. It balances a person’s humanity.
+                                        Nobody should ever have to go a full day without food.
                                     </p>
                                     <p>
-                                        The foundation is aimed at organizing regular outreach/sensitization programs, seminars and music conferences that will create impact through knowledge, wealth and skills creation to foster sanity and civility to the entire human race across the African continent. This will be achieved through Books, Music, Movies and Motivational Speaking by taking on societal issues affecting the girl child, children and women. These societal issues vary from inadequate education for the girl child, lack of food and poor security for less privilege children and persons with disability, gender inequality, rape, youth unemployment, lack of proper care for the elderly, human rights violation, climate change etc.
+                                        We at the <a href="javascript:void(0)">Elldanin Humanitarian Foundation International</a> (EHFI) have undertaken
+                                        this burden to ensure we feed 1,000,000 Nigerians annually through the "Feed a Soul - Win a Soul" initiative.
                                     </p>
                                     <p>
-                                        Having identified this societal menace affecting children and women across the African continent, it is difficult to turn a blind eye especially as an African and a celebrity with a voice and an ever growing platform for creating constant impact in the society. We have therefore decided to contribute to the overall growth and development of the African continent through our foundation by setting up certain strategies and series of events to address the challenges as previously highlighted.
+                                        These are the means by which we pursue this campaign:
                                     </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <!--Single Service Start-->
-                                <div class="single-service mb-30">
-                                    <h2 class="service-title">Our Vision</h2>
-                                    <p>
-                                        To create a world of equal opportunity where being a Child, a Woman, Persons with Disability or a Youth with no clear path in the society doesn't mean survival but Protection, Education and Inclusiveness leaving no one behind.
-                                    </p>
-                                </div>
-                                <!--Single Service End-->
-                            </div>
-                            <div class="col-md-6">
-                                <!--Single Service Start-->
-                                <div class="single-service mb-30">
-                                    <h2 class="service-title">Our Mission</h2>
-                                    <p>
-                                        To help children, women, youths, the elderly and persons with disability to attain equal opportunity within the society by providing adequate protection, education and system inclusiveness.
-                                    </p>
-                                </div>
-                                <!--Single Service End-->
-                            </div>
-                            <div class="col-md-12">
-                                <!--Single Service Start-->
-                                <div class="single-service mb-30">
-                                    <h2 class="service-title">Core Values </h2>
-                                    <p style="max-width: 480px">
-                                        Love, Equality, Advocacy and Transparency.
-                                    </p>
-                                </div>
-                                <!--Single Service End-->
-                            </div>
-                            <div class="col-md-12">
-                                <!--Single Service Start-->
-                                <div class="single-service mb-30">
-                                    <h2 class="service-title">Aims And Objectives</h2>
-                                    <p style="max-width: 480px">
-                                        In view of the United Nations 17 points Sustainable Development Goals for 2030 Agenda, adopted by the General Assembly in 2015.
-                                        Our aim is to establish a grass root reachout program that seeks to enhance the life of all displaced and under-privileged children, girls, women, youths, the elderly and persons with disability in Nigeria and the rest of Africa irrespective of their Religious and Cultural divergence.
-                                    </p>
-                                </div>
-                                <!--Single Service End-->
-                            </div>
-                            <div class="col-md-12">
-                                <!--Single Service Start-->
-                                <div class="single-service mb-30">
-                                    <h2 class="service-title">Our Objectives</h2>
-                                    <ul class="obj-list" style="max-width: 480px">
+                                    <ol class="obj-list">
                                         <li>
-                                            To provide food, clothes and financial assistance as well as other resources to 1,000 orphanages across Africa.
+                                            Financial commitment from Elliot Adanin Okpataku aka Akumonibanks, a popular musician and the founder of  the Elldanin Humanitarian Foundation International (EHFI)                                        </li>
+                                        <li>
+                                            Support of international non-governmental organizations.                                         </li>
+                                        <li>
+                                            Regular music conferences with proceeds going to the initiative.
                                         </li>
                                         <li>
-                                            To reach out to 100 Prisons across Africa to positively impact the lives of 5,000 inmates by spreading Happiness, Love and Hope as well as motivation while providing skill acquisition platforms and training for inmates reintegration to the society.
+                                            Public contributions of food and money.
                                         </li>
                                         <li>
-                                            To lend our voice and support as a strong advocate to legislative policies and laws fighting against Rape, Gender-based/Domestic Violence, Gender Inequality, Discrimination against Persons with Disability, Child Abuse/Molestation, Children Trafficking, Education for the Girl Child, etc.
+                                            Lots more.
                                         </li>
-                                        <li>
-                                            Sensitization and empowerment of 20,000+ children, women, youths, the elderly and persons with disability across different African countries through the launch of a Global Music Conference tagged "Feed-A-Soul Win-A-Soul".
-                                        </li>
-                                        <li>
-                                            To reach out to victims of communal conflict and displaced communities across Africa for the purpose of rehabilitation and integration into the society through motivations, skill acquisition/training and provision of medical and financial assistance.
-                                        </li>
-                                        <li>
-                                            To educate 10,000+ girls, children, and youths across different African countries by sending them back to school while providing relevant educational resources as well as financial aid.
-                                        </li>
-                                    </ul>
+                                    </ol>
                                 </div>
-                                <!--Single Service End-->
                             </div>
                         </div>
                     </div>
@@ -305,7 +262,22 @@ export default {
 </script>
 
 <style scoped>
-    .obj-list li{
-        margin-bottom: 20px;
+.obj-list{
+    padding-inline-start: 15px;
+}
+.obj-list li{
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.service-section-title p{
+    max-width: 100%;
+    text-align: justify;
+    font-weight: 500;
+}
+@media screen and (min-width: 1024px){
+    .service-image{
+        opacity: .3;
     }
+}
 </style>
