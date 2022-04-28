@@ -28,8 +28,8 @@
                         <!--About Image Area Start-->
                         <div class="about-img-area img-full">
                             <div class="img-title">
-                                <h2>Volunteer</h2>
-                                <img src="../assets/img/about/about1.png" alt="">
+<!--                                <h2>Volunteer</h2>-->
+                                <img src="../assets/img/about/about.jpg" alt="">
                             </div>
                         </div>
                         <!--About Image Area End-->
