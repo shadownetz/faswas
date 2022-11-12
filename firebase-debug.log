@@ -1,0 +1,46 @@
+[debug] [2022-02-15T18:13:35.420Z] ----------------------------------------------------------------------
+[debug] [2022-02-15T18:13:35.422Z] Command:       /home/shadownetz/.nvm/versions/node/v17.1.0/bin/node /home/shadownetz/.nvm/versions/node/v17.1.0/bin/firebase deploy hosting
+[debug] [2022-02-15T18:13:35.422Z] CLI Version:   10.2.0
+[debug] [2022-02-15T18:13:35.422Z] Platform:      linux
+[debug] [2022-02-15T18:13:35.423Z] Node Version:  v17.1.0
+[debug] [2022-02-15T18:13:35.423Z] Time:          Tue Feb 15 2022 19:13:35 GMT+0100 (West Africa Standard Time)
+[debug] [2022-02-15T18:13:35.423Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-02-15T18:13:35.425Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[error] 
+[error] Error: Too many arguments. Run firebase help deploy for usage instructions
+[debug] [2022-02-15T18:13:46.636Z] ----------------------------------------------------------------------
+[debug] [2022-02-15T18:13:46.637Z] Command:       /home/shadownetz/.nvm/versions/node/v17.1.0/bin/node /home/shadownetz/.nvm/versions/node/v17.1.0/bin/firebase deploy --only hosting
+[debug] [2022-02-15T18:13:46.637Z] CLI Version:   10.2.0
+[debug] [2022-02-15T18:13:46.638Z] Platform:      linux
+[debug] [2022-02-15T18:13:46.638Z] Node Version:  v17.1.0
+[debug] [2022-02-15T18:13:46.638Z] Time:          Tue Feb 15 2022 19:13:46 GMT+0100 (West Africa Standard Time)
+[debug] [2022-02-15T18:13:46.638Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-02-15T18:13:46.640Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-02-15T18:13:46.755Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-02-15T18:13:46.755Z] > authorizing via signed-in user (shadownetzhack@gmail.com)
+[debug] [2022-02-15T18:13:46.755Z] [iam] checking project faswas-5661c for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-02-15T18:13:46.756Z] > refreshing access token with scopes: []
+[debug] [2022-02-15T18:13:46.756Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-02-15T18:13:47.398Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Tue, 15 Feb 2022 18:14:03 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-02-15T18:13:48.269Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/faswas-5661c:testIamPermissions [none]
+[debug] [2022-02-15T18:13:48.270Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/faswas-5661c:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-02-15T18:13:48.633Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-02-15T18:13:48.634Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2022-02-15T18:13:54.882Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/faswas-5661c:testIamPermissions 200
+[debug] [2022-02-15T18:13:54.883Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/faswas-5661c:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-02-15T18:13:54.887Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/faswas-5661c [none]
+[debug] [2022-02-15T18:13:55.591Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/faswas-5661c 200
+[debug] [2022-02-15T18:13:55.591Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/faswas-5661c {"projectId":"faswas-5661c","projectNumber":"112810143274","displayName":"faswas","name":"projects/faswas-5661c","resources":{"hostingSite":"faswas-5661c","storageBucket":"faswas-5661c.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'faswas-5661c'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2022-02-15T18:13:55.596Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2022-02-15T18:13:55.596Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-02-15T18:13:56.203Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Tue, 15 Feb 2022 18:14:12 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-02-15T18:13:56.385Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/faswas-5661c/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}

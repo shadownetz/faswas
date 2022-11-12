@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import Index from '../views/Index.vue'
 import firebase from "../configs/firebase";
 
 Vue.use(VueRouter)
@@ -9,7 +9,12 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: Index
+  },
+  {
+    path: '/feedasoulwinasoul',
+    name: 'FASWASPage',
+    component: ()=>import("../views/Home")
   },
   {
     path: '/about',
