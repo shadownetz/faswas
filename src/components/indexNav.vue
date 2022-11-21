@@ -24,6 +24,11 @@
                                             Home
                                         </router-link>
                                     </li>
+                                    <li>
+                                        <a href="#about">
+                                            About
+                                        </a>
+                                    </li>
                                     <li><a href="javascript:void(0)">Initiatives</a>
                                         <!--Dropdown Menu Start-->
                                         <ul>
@@ -34,6 +39,11 @@
                                             </li>
                                         </ul>
                                         <!--Dropdown Menu End-->
+                                    </li>
+                                    <li>
+                                        <a href="#contactus">
+                                            Contact us
+                                        </a>
                                     </li>
                                 </ul>
                             </nav>
@@ -66,7 +76,44 @@
 
 <script>
 export default {
-    name: "headNav"
+    name: "headNav",
+    mounted() {
+        $('a[href*="#"]')
+            // Remove links that don't actually link to anything
+            .not('[href="#"]')
+            .not('[href="#0"]')
+            .click(function(event) {
+                // On-page links
+                if (
+                    location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+                    &&
+                    location.hostname == this.hostname
+                ) {
+                    // Figure out element to scroll to
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    // Does a scroll target exist?
+                    if (target.length) {
+                        // Only prevent default if animation is actually gonna happen
+                        event.preventDefault();
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000, function() {
+                            // Callback after animation
+                            // Must change focus!
+                            var $target = $(target);
+                            $target.focus();
+                            if ($target.is(":focus")) { // Checking if the target was focused
+                                return false;
+                            } else {
+                                $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+                                $target.focus(); // Set focus again
+                            }
+                        });
+                    }
+                }
+            });
+    }
 }
 </script>
 

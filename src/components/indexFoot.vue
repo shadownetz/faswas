@@ -61,7 +61,7 @@
                                 </p>
                                 <p class="ft-contact-info">
                                     <span>Web:</span>
-                                    <a href="mailto:elldaninfoundation@gmail.com">elldaninfoundation@gmail.com</a>
+                                    <a href="mailto:elldaninfoundation@gmail.com">info@elldaninfoundation.com</a>
                                     <a href="https://www.elldaninfoundation.com">www.elldaninfoundation.com</a>
                                 </p>
                             </div>
