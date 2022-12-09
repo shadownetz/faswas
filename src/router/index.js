@@ -17,6 +17,11 @@ const routes = [
     component: ()=>import("../views/Home")
   },
   {
+    path: '/about-us',
+    name: 'AboutUs',
+    component: () => import("../views/elldanin/About")
+  },
+  {
     path: '/about',
     name: 'About',
     component: () => import("../views/About")
@@ -35,6 +40,11 @@ const routes = [
     path: '/contact',
     name: 'Contact',
     component: ()=>import("../views/Contact")
+  },
+  {
+    path: '/contact-us',
+    name: 'ContactUs',
+    component: ()=>import("../views/elldanin/Contact")
   },
   {
     path: '/volunteers',

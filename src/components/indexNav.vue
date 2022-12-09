@@ -25,7 +25,7 @@
                                         </router-link>
                                     </li>
                                     <li>
-                                        <a href="#about">
+                                        <a href="/about-us">
                                             About
                                         </a>
                                     </li>
@@ -41,7 +41,7 @@
                                         <!--Dropdown Menu End-->
                                     </li>
                                     <li>
-                                        <a href="#contactus">
+                                        <a href="/contact-us">
                                             Contact us
                                         </a>
                                     </li>
@@ -76,7 +76,7 @@
 
 <script>
 export default {
-    name: "headNav",
+    name: "indexNav",
     mounted() {
         $('a[href*="#"]')
             // Remove links that don't actually link to anything

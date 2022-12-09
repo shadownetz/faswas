@@ -85,7 +85,7 @@
 
 <script>
 export default {
-    name: "footNav",
+    name: "indexFoot",
     data(){
         return {
 
