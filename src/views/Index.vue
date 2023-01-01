@@ -43,7 +43,33 @@
             </div>
         </div>
         <!--Slider Area End-->
-        <about-content/>
+        <div class="container-fluid py-5 px-4 who-we-are" style="background-image: url('/assets/img/team/1.jpeg')">
+            <div class="row">
+                <div class="col-12 col-lg-3">
+                    <!--Section Title Start-->
+                    <div class="section-title pt-lg-5 text-white">
+                        <h2 class="text-white">Give Without Condition</h2>
+                        <p class="py-3">
+                            If you can’t feed a hundred people, then just feed one
+                        </p>
+                    </div>
+                    <!--Section Title End-->
+                </div>
+                <div class="col-12 col-lg-9">
+                    <div class="row no-gutters project-active owl-carousel">
+                        <div class="col-12" v-for="count in 20" :key="count">
+                            <!--Single Project Start-->
+                            <div class="single-project img-full">
+                                <a href="javascript:void(0)"><img :src="`/assets/img/outreach/${count}.jpeg`" alt="photo"></a>
+                            </div>
+                            <!--Single Project End-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <about-content :preview="true"/>
 
         <contact-content/>
         <foot-nav/>
@@ -79,19 +105,41 @@ export default {
             responsive: {
                 0: {
                     items: 1,
-                    nav: false,
-                    dots: true
                 },
                 768: {
                     items: 1,
-                    nav: false,
-                    dots: true
                 },
                 991: {
                     items: 1,
                 }
             }
         });
+        $('.project-active').owlCarousel({
+            loop:true,
+            margin:0,
+            nav:false,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            items:5,
+            dots: false,
+            lazyLoad: true,
+            responsive: {
+                0: {
+                    items: 2,
+                    nav: false,
+                    dots: true
+                },
+                768: {
+                    items: 4,
+                    nav: false,
+                    dots: true
+                },
+                991: {
+                    items: 3,
+                }
+            }
+        });
+
     },
     components: {
         ContactContent,
@@ -105,5 +153,21 @@ export default {
 <style scoped>
 .service-image{
     opacity: 0.3;
+}
+.who-we-are{
+    background: #00baa3 center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.who-we-are:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+    z-index: 0;
+
 }
 </style>

@@ -22,6 +22,11 @@ const routes = [
     component: () => import("../views/elldanin/About")
   },
   {
+    path: '/give-for-hope',
+    name: 'GiveForHope',
+    component: () => import("../views/elldanin/GiveForHope.vue")
+  },
+  {
     path: '/about',
     name: 'About',
     component: () => import("../views/About")

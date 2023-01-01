@@ -29,6 +29,17 @@
                                             About
                                         </a>
                                     </li>
+                                    <li><a href="javascript:void(0)">Outreach</a>
+                                        <!--Dropdown Menu Start-->
+                                        <ul>
+                                            <li :class="[$route.name==='GiveForHope'?'active':'']">
+                                                <router-link :to="{name: 'GiveForHope'}">
+                                                    Give for Hope
+                                                </router-link>
+                                            </li>
+                                        </ul>
+                                        <!--Dropdown Menu End-->
+                                    </li>
                                     <li><a href="javascript:void(0)">Initiatives</a>
                                         <!--Dropdown Menu Start-->
                                         <ul>
@@ -53,8 +64,8 @@
                     <!--Book Now Area Start-->
                     <div class="col-lg-2 col-md-6">
                         <div class="book-now-btn text-right">
-                            <a href="tel:+2349039038475">
-                                (+234)9039038475
+                            <a href="https://sandbox-flw-web-v3.herokuapp.com/donate/kirwe7bjs1rh" target="_blank">
+                                Donate
                             </a>
                         </div>
                     </div>
