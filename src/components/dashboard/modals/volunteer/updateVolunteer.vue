@@ -29,6 +29,14 @@
 <!--                                <small id="emailHelp" class="form-text text-muted">What is this event all about?</small>-->
                             </div>
                             <div class="form-group">
+                                <label>Phone Number</label>
+                                <input v-model="volunteer.data.phone" type="tel" class="form-control" placeholder="Phone Number">
+                            </div>
+                            <div class="form-group">
+                                <label>Email Address</label>
+                                <input v-model="volunteer.data.email" type="email" class="form-control" placeholder="Email Address">
+                            </div>
+                            <div class="form-group">
                                 <label>Position</label>
                                 <input v-model="volunteer.data.position" type="text" class="form-control" placeholder="Position">
                                 <!--                                <small id="emailHelp" class="form-text text-muted">What is this event all about?</small>-->
@@ -37,6 +45,13 @@
                                 <label class="text-capitalize">{{key}} (optional)</label>
                                 <input v-model="volunteer.data.social[key]" type="text" class="form-control" placeholder="social">
                                 <!--                                <small class="form-text text-muted">What is this event all about?</small>-->
+                            </div>
+                            <div class="form-group">
+                                <label>Status</label>
+                                <select class="form-control" v-model="volunteer.data.status">
+                                    <option value="ACCEPTED">Accepted</option>
+                                    <option value="PENDING">Pending</option>
+                                </select>
                             </div>
                         </form>
                     </div>

@@ -36,6 +36,23 @@ export default {
                     commit('setVolunteers', tmp_arr)
                 })
         },
+        fetchAcceptedVolunteers({state, commit}){
+            state.listener = volunteerStore
+                .orderBy('createdAt', 'desc')
+                .where('status', '==', 'ACCEPTED')
+                .onSnapshot(snapshot => {
+                    const tmp_arr = [];
+                    snapshot.forEach(doc=>{
+                        if(doc.exists){
+                            tmp_arr.push({
+                                id: doc.id,
+                                data: doc.data()
+                            })
+                        }
+                    });
+                    commit('setVolunteers', tmp_arr)
+                })
+        },
         async addVolunteer(context, volunteer){
             const response = new CustomResponse();
             try{

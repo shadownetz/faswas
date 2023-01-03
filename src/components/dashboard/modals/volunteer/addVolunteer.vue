@@ -28,6 +28,14 @@
 <!--                                <small class="form-text text-muted">What is this event all about?</small>-->
                             </div>
                             <div class="form-group">
+                                <label>Phone Number</label>
+                                <input v-model="volunteer.phone" type="tel" class="form-control" placeholder="Phone Number">
+                            </div>
+                            <div class="form-group">
+                                <label>Email Address</label>
+                                <input v-model="volunteer.email" type="email" class="form-control" placeholder="Email Address">
+                            </div>
+                            <div class="form-group">
                                 <label>Position</label>
                                 <input v-model="volunteer.position" type="text" class="form-control" placeholder="Position">
 <!--                                <small class="form-text text-muted">What is this event all about?</small>-->
@@ -36,6 +44,13 @@
                                 <label class="text-capitalize">{{key}} (optional)</label>
                                 <input v-model="volunteer.social[key]" type="text" class="form-control" placeholder="social">
                                 <!--                                <small class="form-text text-muted">What is this event all about?</small>-->
+                            </div>
+                            <div class="form-group">
+                                <label>Status</label>
+                                <select class="form-control" v-model="volunteer.status">
+                                    <option value="ACCEPTED">Accepted</option>
+                                    <option value="PENDING">Pending</option>
+                                </select>
                             </div>
                         </form>
                     </div>

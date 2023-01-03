@@ -204,7 +204,9 @@ export default {
             lazyLoad: true,
             responsive: {
                 0: {
-                    items: 2,
+                    items: 1,
+                    loop:false,
+                    autoplay: false,
                     nav: false,
                     dots: true
                 },

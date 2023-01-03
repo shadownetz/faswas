@@ -8,7 +8,7 @@
                     <!--Header Logo Start-->
                     <div class="col-lg-3 col-md-6">
                         <div class="header-logo">
-                            <a href="javascript:void(0)">
+                            <a href="/">
                                 <img src="../assets/img/logo/logo-banner.png" alt="">
                             </a>
                         </div>
@@ -29,7 +29,12 @@
                                             About
                                         </a>
                                     </li>
-                                    <li><a href="javascript:void(0)">Outreach</a>
+                                    <li>
+                                        <a href="/our-volunteers">
+                                            Volunteers
+                                        </a>
+                                    </li>
+                                    <li><a href="javascript:void(0)">Campaigns</a>
                                         <!--Dropdown Menu Start-->
                                         <ul>
                                             <li :class="[$route.name==='GiveForHope'?'active':'']">

@@ -16,6 +16,12 @@
                             <p class="card-text">
                                 {{volunteer.data.name}}
                             </p>
+                            <a :href="'mailto:'+volunteer.data.email" class="d-block card-text" v-if="volunteer.data.email">
+                                {{volunteer.data.email}}
+                            </a>
+                            <a :href="'tel:'+volunteer.data.phone" class="d-block card-text" v-if="volunteer.data.phone">
+                                {{volunteer.data.phone}}
+                            </a>
                         </div>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">
@@ -33,6 +39,9 @@
                             </li>
                             <li class="list-group-item">
                                 Created: <span class="float-md-right">{{getReadableDate(volunteer.data.createdAt)}}</span>
+                            </li>
+                            <li class="list-group-item">
+                                Status: <span class="float-md-right badge badge-info">{{volunteer.data.status}}</span>
                             </li>
                         </ul>
                         <div class="card-body">

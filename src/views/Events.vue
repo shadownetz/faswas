@@ -45,7 +45,8 @@
                         </div>
                     </template>
                     <div class="col-12 text-center mt-5" v-else>
-                        <h4>Nothing to show here.</h4>
+                        <h3>There are no events at the moment</h3>
+                        <p>Please check back later</p>
                     </div>
                 </div>
 <!--                <div class="row">-->

@@ -291,7 +291,8 @@
                             <!--Single Event End-->
                         </div>
                         <div class="col-12 text-center text-muted" v-else>
-                            <p>currently we do not have any event</p>
+                            <h3>There are no events at the moment</h3>
+                            <p>Please check back later</p>
                         </div>
                     </div>
                     <!--Event Slider End-->

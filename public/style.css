@@ -208,7 +208,7 @@ label {
 	position: absolute;
 	top: -16px;
 	left: 0;
-	background-image: url(img/icon/section-title1.png);
+	background-image: url(assets/img/icon/section-title1.png);
 	width: 72px;
 	height: 72px;
 	background-repeat: no-repeat;
@@ -1310,7 +1310,7 @@ Common Style CSS
     5. Service Area CSS
 ----------------------------------*/
 .service-area {
-	background-image: url(img/bg/bg1.jpg);
+	background-image: url(assets/img/bg/bg1.jpg);
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -1535,14 +1535,14 @@ Common Style CSS
 	content: "";
 	width: 18px;
 	height: 14px;
-	background: url(img/icon/checkbox-check.png) -18px top no-repeat cursor: pointer;
+	background: url(assets/img/icon/checkbox-check.png) -18px top no-repeat cursor: pointer;
 	position: absolute;
 	left: -39px;
 	top: 5px;
 }
 .quick-donation-section input[type="radio"]:checked + label .check-icon::after {
 	content: "";
-	background: url(img/icon/checkbox-check.png) left top no-repeat;
+	background: url(assets/img/icon/checkbox-check.png) left top no-repeat;
 }
 .quick-donation-section .enter-amount {
 	background-color: #123a54;
@@ -2090,7 +2090,7 @@ Common Style CSS
     9. Fun Factor Area CSS
 ----------------------------*/
 .fun-bg {
-	background: url(img/bg/bg2.jpg);
+	background: url(assets/img/bg/bg2.jpg);
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -2138,7 +2138,7 @@ Common Style CSS
 	position: absolute;
 	top: 40px;
 	left: 40px;
-	background-image: url(img/icon/blockquote-quote.png);
+	background-image: url(assets/img/icon/blockquote-quote.png);
 	width: 35px;
 	height: 35px;
 	background-repeat: no-repeat;
@@ -2226,7 +2226,7 @@ Common Style CSS
 	position: absolute;
 	top: 26px;
 	left: 30px;
-	background-image: url(img/icon/blockquote-quote.png);
+	background-image: url(assets/img/icon/blockquote-quote.png);
 	width: 30px;
 	height: 30px;
 	background-repeat: no-repeat;
@@ -2408,7 +2408,7 @@ blockquote {
 }
 blockquote::before {
 	content: "";
-	background-image: url(img/icon/blockquote-quote.png);
+	background-image: url(assets/img/icon/blockquote-quote.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	height: 30px;
@@ -2928,7 +2928,7 @@ h4.small-title {
 .single-gallery-img a {
 	position: relative;
 	display: block;
-	cursor: url(img/icon/icon_zoomin.png) 24 24, auto;
+	cursor: url(assets/img/icon/icon_zoomin.png) 24 24, auto;
 }
 .single-gallery-img img{
     width: 100%;

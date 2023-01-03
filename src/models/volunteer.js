@@ -54,6 +54,8 @@ class Volunteer{
 
 function Model(){
     this.name = '';
+    this.email = '';
+    this.phone = '';
     this.createdAt = firestore.FieldValue.serverTimestamp();
     this.updatedAt = firestore.FieldValue.serverTimestamp();
     this.position = '';
@@ -63,7 +65,8 @@ function Model(){
         twitter: '',
         instagram: '',
         whatsapp: ''
-    }
+    };
+    this.status = 'PENDING'; // PENDING, ACCEPTED, REJECTED
 }
 
 export const VolunteerModel = Model

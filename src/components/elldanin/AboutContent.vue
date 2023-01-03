@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <section>
         <!--Service Area Start-->
         <div class="service-area" :style="{backgroundImage: 'url('+serviceBG+')'}">
             <div class="container">
@@ -69,7 +69,7 @@
             </div>
         </div>
         <!--Service Area End-->
-    </div>
+    </section>
 
 </template>
 

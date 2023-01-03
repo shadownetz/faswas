@@ -27,6 +27,16 @@ const routes = [
     component: () => import("../views/elldanin/GiveForHope.vue")
   },
   {
+    path: '/become-a-volunteer',
+    name: 'BecomeAVolunteer',
+    component: () => import("../views/elldanin/BecomeAVolunteer.vue")
+  },
+  {
+    path: '/our-volunteers',
+    name: 'IndexVolunteers',
+    component: () => import("../views/elldanin/Volunteers.vue")
+  },
+  {
     path: '/about',
     name: 'About',
     component: () => import("../views/About")
